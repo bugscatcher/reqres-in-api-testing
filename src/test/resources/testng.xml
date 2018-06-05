@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteName" verbose="1" parallel="classes" thread-count="5">
+    <test name="User Tests">
+        <classes>
+            <class name="com.github.bugscatcher.UserTests"></class>
+        </classes>
+    </test>
+
+    <test name="Register Tests">
+        <classes>
+            <class name="com.github.bugscatcher.RegisterTests"></class>
+        </classes>
+    </test>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.github.bugscatcher.LoginTests"></class>
+        </classes>
+    </test>
+
+    <test name="Resource Tests">
+        <classes>
+            <class name="com.github.bugscatcher.ResourceTests"></class>
+        </classes>
+    </test>
+</suite>
