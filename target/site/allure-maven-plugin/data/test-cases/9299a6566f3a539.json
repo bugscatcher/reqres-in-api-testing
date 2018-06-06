@@ -1,0 +1,142 @@
+{
+  "uid" : "9299a6566f3a539",
+  "name" : "GET. SINGLE RESOURCE",
+  "fullName" : "com.github.bugscatcher.ResourceTests.testSingleResource_200",
+  "historyId" : "c432f7a392ffe743c903d435af55ef52",
+  "time" : {
+    "start" : 1528243580621,
+    "stop" : 1528243581179,
+    "duration" : 558
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Testing getting a single resource.",
+  "descriptionHtml" : "<p>Testing getting a single resource.</p>",
+  "beforeStages" : [ {
+    "name" : "Configure temp files, base uri, base path and etc.",
+    "time" : {
+      "start" : 1528243580610,
+      "stop" : 1528243580614,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Get resource",
+      "time" : {
+        "start" : 1528243580622,
+        "stop" : 1528243581178,
+        "duration" : 556
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d6bbe79e9b84793",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\request-7315869841806594395.xml",
+        "source" : "d6bbe79e9b84793.txt",
+        "type" : "text/plain",
+        "size" : 299
+      }, {
+        "uid" : "e0280400b8e3ce71",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\response-4242952955586752264.xml",
+        "source" : "e0280400b8e3ce71.txt",
+        "type" : "text/plain",
+        "size" : 711
+      } ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "/unknown/2"
+      }, {
+        "name" : "responseClass",
+        "value" : "class com.github.bugscatcher.dto.resources.ResourceSingleDTO"
+      } ]
+    }, {
+      "name" : "Get expected result from resources",
+      "time" : {
+        "start" : 1528243581178,
+        "stop" : 1528243581179,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "data/singleResource_200.json"
+      }, {
+        "name" : "valueClass",
+        "value" : "class com.github.bugscatcher.dto.resources.ResourceSingleDTO"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "Delete temp files",
+    "time" : {
+      "start" : 1528243581185,
+      "stop" : 1528243581185,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.github.bugscatcher.ResourceTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.bugscatcher.ResourceTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSingleResource_200"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SuiteName"
+  }, {
+    "name" : "suite",
+    "value" : "Resource Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.github.bugscatcher.ResourceTests"
+  }, {
+    "name" : "host",
+    "value" : "AINUR-BINADOX"
+  }, {
+    "name" : "thread",
+    "value" : "12980@AINUR-BINADOX.TestNG-test=Resource Tests-1(17)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

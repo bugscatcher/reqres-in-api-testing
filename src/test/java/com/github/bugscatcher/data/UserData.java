@@ -3,7 +3,7 @@ package com.github.bugscatcher.data;
 import org.testng.annotations.DataProvider;
 
 public class UserData {
-    @DataProvider(name = "createUser_201", parallel = true)
+    @DataProvider(name = "createUser_201")
     public static Object[][] createUser_201() {
         return new Object[][]{
                 {"Ainur", "Team Leader"},
@@ -14,7 +14,7 @@ public class UserData {
         };
     }
 
-    @DataProvider(name = "updateUser_200", parallel = true)
+    @DataProvider(name = "updateUser_200")
     public static Object[][] updateUser_200() {
         return new Object[][]{
                 {"Ainur", "Chairman"},
@@ -25,7 +25,7 @@ public class UserData {
         };
     }
 
-    @DataProvider(name = "patchUser_200", parallel = true)
+    @DataProvider(name = "patchUser_200")
     public static Object[][] patchUser_200() {
         return new Object[][]{
                 {"Ainur", "CEO"},
@@ -36,7 +36,7 @@ public class UserData {
         };
     }
 
-    @DataProvider(name = "registerUser", parallel = true)
+    @DataProvider(name = "registerUser")
     public static Object[][] registerUser() {
         return new Object[][]{
                 {"inurrick@gmail.com", "c7NPkr0VSh8tdKxo3qx3"},
@@ -44,7 +44,7 @@ public class UserData {
         };
     }
 
-    @DataProvider(name = "delay", parallel = true)
+    @DataProvider(name = "delay")
     public static Object[][] delay() {
         return new Object[][]{
                 {"5"},

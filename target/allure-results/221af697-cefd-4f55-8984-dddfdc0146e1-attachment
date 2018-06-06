@@ -1,0 +1,16 @@
+HTTP/1.1 400 Bad Request
+Date: Wed, 06 Jun 2018 00:06:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+Connection: keep-alive
+Set-Cookie: __cfduid=dee595e1279af8a2b56c29b5539dc0a5f1528243577; expires=Thu, 06-Jun-19 00:06:17 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"25-Ik70kof1lbc973ShN5FoVPxYn7A"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4266a1d8a80b6415-FRA
+
+{
+    "error": "Missing email or username"
+}

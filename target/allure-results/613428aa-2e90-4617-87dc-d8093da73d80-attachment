@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Wed, 06 Jun 2018 00:06:06 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d7140f1b57a34d250ae880d21dc374f051528243566; expires=Thu, 06-Jun-19 00:06:06 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"43-WriXget2i+jroYjPlra1qGlr++o"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4266a190de9c63af-FRA
+Content-Encoding: gzip
+
+{
+    "name": "Ainur",
+    "job": "CEO",
+    "updatedAt": "2018-06-06T00:06:59.245Z"
+}
