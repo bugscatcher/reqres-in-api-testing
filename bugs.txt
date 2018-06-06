@@ -6,6 +6,12 @@ The same applies to the user's login. I receive a token with any user. This is c
 
 -----
 
+Strange works the output of the query result list of users and resources when the parameters are negative. For example:
+GET https://reqres.in/api/users?page=-1 (same GET https://reqres.in/api/users?page=3)
+GET https://reqres.in/api/users?page=-3 (same GET https://reqres.in/api/users?page=1)
+I don't know is it bug or not. But I think nothing should be output with negative parameters, if this is not necessary.
+-----
+
 Actions:
 POST https://reqres.in/api/users
 {
