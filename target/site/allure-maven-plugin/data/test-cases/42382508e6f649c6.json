@@ -1,0 +1,128 @@
+{
+  "uid" : "42382508e6f649c6",
+  "name" : "POST. CREATE USER.",
+  "fullName" : "com.github.bugscatcher.UserTests.testCreateUser_201",
+  "historyId" : "75a9acd101f34900fcf11bb12e738f2",
+  "time" : {
+    "start" : 1528245636595,
+    "stop" : 1528245637268,
+    "duration" : 673
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Testing the creation of the user.",
+  "descriptionHtml" : "<p>Testing the creation of the user.</p>",
+  "beforeStages" : [ {
+    "name" : "Configure temp files, base uri, base path and etc.",
+    "time" : {
+      "start" : 1528245636584,
+      "stop" : 1528245636588,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Create resource",
+      "time" : {
+        "start" : 1528245636596,
+        "stop" : 1528245637265,
+        "duration" : 669
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "10378d86bca6f71f",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\request-7846238880054615365.xml",
+        "source" : "10378d86bca6f71f.txt",
+        "type" : "text/plain",
+        "size" : 335
+      }, {
+        "uid" : "73f3f45160054d28",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\response-6444940380542791723.xml",
+        "source" : "73f3f45160054d28.txt",
+        "type" : "text/plain",
+        "size" : 636
+      } ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "com.github.bugscatcher.dto.users.UserNewDTO@59455c2e"
+      }, {
+        "name" : "path",
+        "value" : "/users"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "Delete temp files",
+    "time" : {
+      "start" : 1528245637284,
+      "stop" : 1528245637285,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateUser_201"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "host",
+    "value" : "AINUR-BINADOX"
+  }, {
+    "name" : "thread",
+    "value" : "6080@AINUR-BINADOX.TestNG-test=User Tests-1(14)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "null"
+  }, {
+    "name" : "arg1",
+    "value" : "UX Designer"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

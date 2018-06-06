@@ -1,0 +1,43 @@
+HTTP/1.1 200 OK
+Date: Wed, 06 Jun 2018 00:41:06 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d19fd7a06ead53ccdc943dfb5c7dd798a1528245666; expires=Thu, 06-Jun-19 00:41:06 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"138-JxfoRpyrgR+3MwPzWk39icdKPEA"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4266d4d7de2f8f7b-DME
+Content-Encoding: gzip
+
+{
+    "page": 1,
+    "per_page": 3,
+    "total": 12,
+    "total_pages": 4,
+    "data": [
+        {
+            "id": 1,
+            "name": "cerulean",
+            "year": 2000,
+            "color": "#98B2D1",
+            "pantone_value": "15-4020"
+        },
+        {
+            "id": 2,
+            "name": "fuchsia rose",
+            "year": 2001,
+            "color": "#C74375",
+            "pantone_value": "17-2031"
+        },
+        {
+            "id": 3,
+            "name": "true red",
+            "year": 2002,
+            "color": "#BF1932",
+            "pantone_value": "19-1664"
+        }
+    ]
+}

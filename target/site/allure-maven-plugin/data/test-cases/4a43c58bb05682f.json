@@ -1,0 +1,128 @@
+{
+  "uid" : "4a43c58bb05682f",
+  "name" : "POST. LOGIN (UNSUCCESSFUL).",
+  "fullName" : "com.github.bugscatcher.LoginTests.testLogin_400_1",
+  "historyId" : "25356ced0bb55583abfaa7aa1a4939fb",
+  "time" : {
+    "start" : 1528245665714,
+    "stop" : 1528245666273,
+    "duration" : 559
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Testing the logon.",
+  "descriptionHtml" : "<p>Testing the logon.</p>",
+  "beforeStages" : [ {
+    "name" : "Configure temp files, base uri, base path and etc.",
+    "time" : {
+      "start" : 1528245665703,
+      "stop" : 1528245665707,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Create resource",
+      "time" : {
+        "start" : 1528245665714,
+        "stop" : 1528245666273,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a62b1c613dc0787e",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\request-4542103894827450582.xml",
+        "source" : "a62b1c613dc0787e.txt",
+        "type" : "text/plain",
+        "size" : 348
+      }, {
+        "uid" : "7aee118f9b22c240",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\response-2458716450336789683.xml",
+        "source" : "7aee118f9b22c240.txt",
+        "type" : "text/plain",
+        "size" : 567
+      } ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "com.github.bugscatcher.dto.register.UserRegisterDTO@7ec6db9c"
+      }, {
+        "name" : "path",
+        "value" : "/login"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "Delete temp files",
+    "time" : {
+      "start" : 1528245666283,
+      "stop" : 1528245666283,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.github.bugscatcher.LoginTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.bugscatcher.LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogin_400_1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Login Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.github.bugscatcher.LoginTests"
+  }, {
+    "name" : "host",
+    "value" : "AINUR-BINADOX"
+  }, {
+    "name" : "thread",
+    "value" : "6080@AINUR-BINADOX.TestNG-test=Login Tests-1(16)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "inurrick@gmail.com"
+  }, {
+    "name" : "arg1",
+    "value" : "c7NPkr0VSh8tdKxo3qx3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

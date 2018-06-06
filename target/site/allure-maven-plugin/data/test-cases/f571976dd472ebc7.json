@@ -1,0 +1,128 @@
+{
+  "uid" : "f571976dd472ebc7",
+  "name" : "POST. REGISTER (UNSUCCESSFUL).",
+  "fullName" : "com.github.bugscatcher.RegisterTests.testRegister_400_1",
+  "historyId" : "730c871d01c90afa8e6277f8ae8a1adb",
+  "time" : {
+    "start" : 1528245662908,
+    "stop" : 1528245663459,
+    "duration" : 551
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Testing the registration of a new user.",
+  "descriptionHtml" : "<p>Testing the registration of a new user.</p>",
+  "beforeStages" : [ {
+    "name" : "Configure temp files, base uri, base path and etc.",
+    "time" : {
+      "start" : 1528245662897,
+      "stop" : 1528245662901,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Create resource",
+      "time" : {
+        "start" : 1528245662908,
+        "stop" : 1528245663452,
+        "duration" : 544
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5753492bb756d377",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\request-7849660413351309552.xml",
+        "source" : "5753492bb756d377.txt",
+        "type" : "text/plain",
+        "size" : 351
+      }, {
+        "uid" : "626b7a34957b3f6f",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\response-7096765196744497366.xml",
+        "source" : "626b7a34957b3f6f.txt",
+        "type" : "text/plain",
+        "size" : 567
+      } ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "com.github.bugscatcher.dto.register.UserRegisterDTO@3ea7df96"
+      }, {
+        "name" : "path",
+        "value" : "/register"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "Delete temp files",
+    "time" : {
+      "start" : 1528245663476,
+      "stop" : 1528245663476,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.github.bugscatcher.RegisterTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.bugscatcher.RegisterTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testRegister_400_1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Register Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.github.bugscatcher.RegisterTests"
+  }, {
+    "name" : "host",
+    "value" : "AINUR-BINADOX"
+  }, {
+    "name" : "thread",
+    "value" : "6080@AINUR-BINADOX.TestNG-test=Register Tests-1(15)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "inurrick@gmail.com"
+  }, {
+    "name" : "arg1",
+    "value" : "c7NPkr0VSh8tdKxo3qx3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

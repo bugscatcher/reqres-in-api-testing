@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Date: Wed, 06 Jun 2018 00:40:54 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d93b4efa7a716459085d59097555cf01a1528245654; expires=Thu, 06-Jun-19 00:40:54 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"89-bSBFK27ZbQL+K8fMuJn/jZrcUuk"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4266d48c68ae8f81-DME
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 2,
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+    }
+}

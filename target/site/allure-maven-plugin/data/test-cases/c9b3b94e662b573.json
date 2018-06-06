@@ -1,0 +1,119 @@
+{
+  "uid" : "c9b3b94e662b573",
+  "name" : "GET. SINGLE RESOURCE (NOT FOUND).",
+  "fullName" : "com.github.bugscatcher.ResourceTests.testSingleResource_404",
+  "historyId" : "d71ffcccb2a387b1dd8c6dc9dbc64180",
+  "time" : {
+    "start" : 1528245668817,
+    "stop" : 1528245669191,
+    "duration" : 374
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Testing getting a non-existent resource.",
+  "descriptionHtml" : "<p>Testing getting a non-existent resource.</p>",
+  "beforeStages" : [ {
+    "name" : "Configure temp files, base uri, base path and etc.",
+    "time" : {
+      "start" : 1528245668802,
+      "stop" : 1528245668807,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Get resource",
+      "time" : {
+        "start" : 1528245668817,
+        "stop" : 1528245669191,
+        "duration" : 374
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22c8bc342ec17288",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\request-7493503725633387737.xml",
+        "source" : "22c8bc342ec17288.txt",
+        "type" : "text/plain",
+        "size" : 300
+      }, {
+        "uid" : "7255a972c94253",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\response-1909241723184074175.xml",
+        "source" : "7255a972c94253.txt",
+        "type" : "text/plain",
+        "size" : 536
+      } ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "/unknown/23"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "Delete temp files",
+    "time" : {
+      "start" : 1528245669202,
+      "stop" : 1528245669202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.github.bugscatcher.ResourceTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.bugscatcher.ResourceTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSingleResource_404"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Resource Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.github.bugscatcher.ResourceTests"
+  }, {
+    "name" : "host",
+    "value" : "AINUR-BINADOX"
+  }, {
+    "name" : "thread",
+    "value" : "6080@AINUR-BINADOX.TestNG-test=Resource Tests-1(17)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

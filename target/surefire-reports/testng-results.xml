@@ -2,92 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="38" passed="38">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="22991" started-at="2018-06-06T00:25:36Z" finished-at="2018-06-06T00:25:59Z">
+  <suite name="Test Suite" duration-ms="37431" started-at="2018-06-06T00:40:31Z" finished-at="2018-06-06T00:41:09Z">
     <groups>
     </groups>
-    <test name="User Tests" duration-ms="17988" started-at="2018-06-06T00:25:36Z" finished-at="2018-06-06T00:25:54Z">
+    <test name="User Tests" duration-ms="29812" started-at="2018-06-06T00:40:31Z" finished-at="2018-06-06T00:41:01Z">
       <class name="com.github.bugscatcher.UserTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="817" started-at="2018-06-06T00:25:36Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="748" started-at="2018-06-06T00:40:31Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="817" started-at="2018-06-06T00:25:36Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="817" started-at="2018-06-06T00:25:36Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="817" started-at="2018-06-06T00:25:36Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="817" started-at="2018-06-06T00:25:36Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testCreateUser_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testCreateUser_201" duration-ms="2864" started-at="2018-06-06T00:25:37Z" description="POST. CREATE USER." data-provider="createUser_201" finished-at="2018-06-06T00:25:40Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UX Designer]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCreateUser_201 -->
-        <test-method status="PASS" signature="testCreateUser_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testCreateUser_201" duration-ms="2864" started-at="2018-06-06T00:25:37Z" description="POST. CREATE USER." data-provider="createUser_201" finished-at="2018-06-06T00:25:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Michael]]>
-              </value>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCreateUser_201 -->
-        <test-method status="PASS" signature="testCreateUser_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testCreateUser_201" duration-ms="2864" started-at="2018-06-06T00:25:37Z" description="POST. CREATE USER." data-provider="createUser_201" finished-at="2018-06-06T00:25:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Software Architect]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCreateUser_201 -->
-        <test-method status="PASS" signature="testCreateUser_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testCreateUser_201" duration-ms="2864" started-at="2018-06-06T00:25:37Z" description="POST. CREATE USER." data-provider="createUser_201" finished-at="2018-06-06T00:25:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jacob]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCreateUser_201 -->
-        <test-method status="PASS" signature="testCreateUser_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testCreateUser_201" duration-ms="2863" started-at="2018-06-06T00:25:37Z" description="POST. CREATE USER." data-provider="createUser_201" finished-at="2018-06-06T00:25:40Z">
+        <test-method status="PASS" signature="testCreateUser_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testCreateUser_201" duration-ms="2459" started-at="2018-06-06T00:40:32Z" description="POST. CREATE USER." data-provider="createUser_201" finished-at="2018-06-06T00:40:35Z">
           <params>
             <param index="0">
               <value>
@@ -103,43 +27,107 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateUser_201 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:40Z" description="Delete temp files" finished-at="2018-06-06T00:25:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:40:35Z" description="Delete temp files" finished-at="2018-06-06T00:40:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:40Z" description="Delete temp files" finished-at="2018-06-06T00:25:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:40Z" description="Delete temp files" finished-at="2018-06-06T00:25:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:40Z" description="Delete temp files" finished-at="2018-06-06T00:25:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:40Z" description="Delete temp files" finished-at="2018-06-06T00:25:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="13" started-at="2018-06-06T00:25:40Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:35Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="14" started-at="2018-06-06T00:25:40Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:40Z">
+        <test-method status="PASS" signature="testCreateUser_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testCreateUser_201" duration-ms="557" started-at="2018-06-06T00:40:35Z" description="POST. CREATE USER." data-provider="createUser_201" finished-at="2018-06-06T00:40:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jacob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser_201 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:35Z" description="Delete temp files" finished-at="2018-06-06T00:40:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:35Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="13" started-at="2018-06-06T00:25:40Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:40Z">
+        <test-method status="PASS" signature="testCreateUser_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testCreateUser_201" duration-ms="412" started-at="2018-06-06T00:40:35Z" description="POST. CREATE USER." data-provider="createUser_201" finished-at="2018-06-06T00:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser_201 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:36Z" description="Delete temp files" finished-at="2018-06-06T00:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:36Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="13" started-at="2018-06-06T00:25:40Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:40Z">
+        <test-method status="PASS" signature="testCreateUser_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testCreateUser_201" duration-ms="368" started-at="2018-06-06T00:40:36Z" description="POST. CREATE USER." data-provider="createUser_201" finished-at="2018-06-06T00:40:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Software Architect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser_201 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:36Z" description="Delete temp files" finished-at="2018-06-06T00:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:36Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDelayedResponse_200(java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testDelayedResponse_200" duration-ms="5582" started-at="2018-06-06T00:25:40Z" description="GET. DELAYED RESPONSE." data-provider="delay" finished-at="2018-06-06T00:25:45Z">
+        <test-method status="PASS" signature="testCreateUser_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testCreateUser_201" duration-ms="674" started-at="2018-06-06T00:40:36Z" description="POST. CREATE USER." data-provider="createUser_201" finished-at="2018-06-06T00:40:37Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UX Designer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser_201 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:37Z" description="Delete temp files" finished-at="2018-06-06T00:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="6" started-at="2018-06-06T00:40:37Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDelayedResponse_200(java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testDelayedResponse_200" duration-ms="5527" started-at="2018-06-06T00:40:37Z" description="GET. DELAYED RESPONSE." data-provider="delay" finished-at="2018-06-06T00:40:42Z">
           <params>
             <param index="0">
               <value>
@@ -150,29 +138,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelayedResponse_200 -->
-        <test-method status="PASS" signature="testDelayedResponse_200(java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testDelayedResponse_200" duration-ms="463" started-at="2018-06-06T00:25:40Z" description="GET. DELAYED RESPONSE." data-provider="delay" finished-at="2018-06-06T00:25:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-999]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:42Z" description="Delete temp files" finished-at="2018-06-06T00:40:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDelayedResponse_200 -->
-        <test-method status="PASS" signature="testDelayedResponse_200(java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testDelayedResponse_200" duration-ms="461" started-at="2018-06-06T00:25:40Z" description="GET. DELAYED RESPONSE." data-provider="delay" finished-at="2018-06-06T00:25:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aaaa]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:42Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDelayedResponse_200 -->
-        <test-method status="PASS" signature="testDelayedResponse_200(java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testDelayedResponse_200" duration-ms="10574" started-at="2018-06-06T00:25:40Z" description="GET. DELAYED RESPONSE." data-provider="delay" finished-at="2018-06-06T00:25:50Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDelayedResponse_200(java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testDelayedResponse_200" duration-ms="10550" started-at="2018-06-06T00:40:42Z" description="GET. DELAYED RESPONSE." data-provider="delay" finished-at="2018-06-06T00:40:53Z">
           <params>
             <param index="0">
               <value>
@@ -183,91 +157,101 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelayedResponse_200 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:40Z" description="Delete temp files" finished-at="2018-06-06T00:25:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:40:53Z" description="Delete temp files" finished-at="2018-06-06T00:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:40Z" description="Delete temp files" finished-at="2018-06-06T00:25:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:45Z" description="Delete temp files" finished-at="2018-06-06T00:25:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:50Z" description="Delete temp files" finished-at="2018-06-06T00:25:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:25:50Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="8" started-at="2018-06-06T00:40:53Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testDeleteUser_204()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testDeleteUser_204" duration-ms="436" started-at="2018-06-06T00:25:50Z" description="DELETE. DELETE USER." finished-at="2018-06-06T00:25:51Z">
+        <test-method status="PASS" signature="testDelayedResponse_200(java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testDelayedResponse_200" duration-ms="569" started-at="2018-06-06T00:40:53Z" description="GET. DELAYED RESPONSE." data-provider="delay" finished-at="2018-06-06T00:40:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelayedResponse_200 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:54Z" description="Delete temp files" finished-at="2018-06-06T00:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-06T00:40:54Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDelayedResponse_200(java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testDelayedResponse_200" duration-ms="381" started-at="2018-06-06T00:40:54Z" description="GET. DELAYED RESPONSE." data-provider="delay" finished-at="2018-06-06T00:40:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelayedResponse_200 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:54Z" description="Delete temp files" finished-at="2018-06-06T00:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-06T00:40:54Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDeleteUser_204()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testDeleteUser_204" duration-ms="706" started-at="2018-06-06T00:40:54Z" description="DELETE. DELETE USER." finished-at="2018-06-06T00:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUser_204 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:51Z" description="Delete temp files" finished-at="2018-06-06T00:25:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:55Z" description="Delete temp files" finished-at="2018-06-06T00:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="6" started-at="2018-06-06T00:25:51Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:55Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testListUsers_200()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testListUsers_200" duration-ms="568" started-at="2018-06-06T00:25:51Z" description="GET. LIST USERS." finished-at="2018-06-06T00:25:51Z">
+        <test-method status="PASS" signature="testListUsers_200()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testListUsers_200" duration-ms="714" started-at="2018-06-06T00:40:55Z" description="GET. LIST USERS." finished-at="2018-06-06T00:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListUsers_200 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:51Z" description="Delete temp files" finished-at="2018-06-06T00:25:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:55Z" description="Delete temp files" finished-at="2018-06-06T00:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-06T00:25:51Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:55Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSingleUser_200()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testSingleUser_200" duration-ms="353" started-at="2018-06-06T00:25:51Z" description="GET. SINGLE USER." finished-at="2018-06-06T00:25:52Z">
+        <test-method status="PASS" signature="testSingleUser_200()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testSingleUser_200" duration-ms="359" started-at="2018-06-06T00:40:55Z" description="GET. SINGLE USER." finished-at="2018-06-06T00:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSingleUser_200 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:52Z" description="Delete temp files" finished-at="2018-06-06T00:25:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:40:56Z" description="Delete temp files" finished-at="2018-06-06T00:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:25:52Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:56Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSingleUser_404()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testSingleUser_404" duration-ms="678" started-at="2018-06-06T00:25:52Z" description="GET. SINGLE USER (NOT FOUND)." finished-at="2018-06-06T00:25:52Z">
+        <test-method status="PASS" signature="testSingleUser_404()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testSingleUser_404" duration-ms="368" started-at="2018-06-06T00:40:56Z" description="GET. SINGLE USER (NOT FOUND)." finished-at="2018-06-06T00:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSingleUser_404 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:52Z" description="Delete temp files" finished-at="2018-06-06T00:25:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:56Z" description="Delete temp files" finished-at="2018-06-06T00:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="23" started-at="2018-06-06T00:25:52Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:52Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:56Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="23" started-at="2018-06-06T00:25:52Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="24" started-at="2018-06-06T00:25:52Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="24" started-at="2018-06-06T00:25:52Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="22" started-at="2018-06-06T00:25:52Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testUpdateUser_PATCH_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testUpdateUser_PATCH_200" duration-ms="406" started-at="2018-06-06T00:25:52Z" description="PATCH. UPDATE USER." data-provider="patchUser_200" finished-at="2018-06-06T00:25:53Z">
+        <test-method status="PASS" signature="testUpdateUser_PATCH_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testUpdateUser_PATCH_200" duration-ms="390" started-at="2018-06-06T00:40:56Z" description="PATCH. UPDATE USER." data-provider="patchUser_200" finished-at="2018-06-06T00:40:57Z">
           <params>
             <param index="0">
               <value>
@@ -283,7 +267,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser_PATCH_200 -->
-        <test-method status="PASS" signature="testUpdateUser_PATCH_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testUpdateUser_PATCH_200" duration-ms="595" started-at="2018-06-06T00:25:52Z" description="PATCH. UPDATE USER." data-provider="patchUser_200" finished-at="2018-06-06T00:25:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:57Z" description="Delete temp files" finished-at="2018-06-06T00:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="6" started-at="2018-06-06T00:40:57Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUpdateUser_PATCH_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testUpdateUser_PATCH_200" duration-ms="367" started-at="2018-06-06T00:40:57Z" description="PATCH. UPDATE USER." data-provider="patchUser_200" finished-at="2018-06-06T00:40:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alexander]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser_PATCH_200 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:40:57Z" description="Delete temp files" finished-at="2018-06-06T00:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:57Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUpdateUser_PATCH_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testUpdateUser_PATCH_200" duration-ms="513" started-at="2018-06-06T00:40:57Z" description="PATCH. UPDATE USER." data-provider="patchUser_200" finished-at="2018-06-06T00:40:58Z">
           <params>
             <param index="0">
               <value>
@@ -299,21 +313,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser_PATCH_200 -->
-        <test-method status="PASS" signature="testUpdateUser_PATCH_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testUpdateUser_PATCH_200" duration-ms="402" started-at="2018-06-06T00:25:52Z" description="PATCH. UPDATE USER." data-provider="patchUser_200" finished-at="2018-06-06T00:25:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:58Z" description="Delete temp files" finished-at="2018-06-06T00:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-06T00:40:58Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUpdateUser_PATCH_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testUpdateUser_PATCH_200" duration-ms="677" started-at="2018-06-06T00:40:58Z" description="PATCH. UPDATE USER." data-provider="patchUser_200" finished-at="2018-06-06T00:40:58Z">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[Alexander]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="1">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[Mobile Developer]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser_PATCH_200 -->
-        <test-method status="PASS" signature="testUpdateUser_PATCH_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testUpdateUser_PATCH_200" duration-ms="595" started-at="2018-06-06T00:25:52Z" description="PATCH. UPDATE USER." data-provider="patchUser_200" finished-at="2018-06-06T00:25:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:58Z" description="Delete temp files" finished-at="2018-06-06T00:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:58Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUpdateUser_PATCH_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testUpdateUser_PATCH_200" duration-ms="369" started-at="2018-06-06T00:40:58Z" description="PATCH. UPDATE USER." data-provider="patchUser_200" finished-at="2018-06-06T00:40:59Z">
           <params>
             <param index="0">
               <value>
@@ -329,91 +359,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser_PATCH_200 -->
-        <test-method status="PASS" signature="testUpdateUser_PATCH_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testUpdateUser_PATCH_200" duration-ms="592" started-at="2018-06-06T00:25:52Z" description="PATCH. UPDATE USER." data-provider="patchUser_200" finished-at="2018-06-06T00:25:53Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mobile Developer]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateUser_PATCH_200 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:53Z" description="Delete temp files" finished-at="2018-06-06T00:25:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:59Z" description="Delete temp files" finished-at="2018-06-06T00:40:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:53Z" description="Delete temp files" finished-at="2018-06-06T00:25:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:53Z" description="Delete temp files" finished-at="2018-06-06T00:25:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:53Z" description="Delete temp files" finished-at="2018-06-06T00:25:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:53Z" description="Delete temp files" finished-at="2018-06-06T00:25:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="23" started-at="2018-06-06T00:25:53Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="7" started-at="2018-06-06T00:40:59Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="24" started-at="2018-06-06T00:25:53Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="22" started-at="2018-06-06T00:25:53Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="20" started-at="2018-06-06T00:25:53Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="setUp" is-config="true" duration-ms="20" started-at="2018-06-06T00:25:53Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testUpdateUser_PUT_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testUpdateUser_PUT_200" duration-ms="585" started-at="2018-06-06T00:25:53Z" description="PUT. UPDATE USER." data-provider="updateUser_200" finished-at="2018-06-06T00:25:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[UX Designer]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateUser_PUT_200 -->
-        <test-method status="PASS" signature="testUpdateUser_PUT_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testUpdateUser_PUT_200" duration-ms="374" started-at="2018-06-06T00:25:53Z" description="PUT. UPDATE USER." data-provider="updateUser_200" finished-at="2018-06-06T00:25:53Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Software Architect]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateUser_PUT_200 -->
-        <test-method status="PASS" signature="testUpdateUser_PUT_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testUpdateUser_PUT_200" duration-ms="373" started-at="2018-06-06T00:25:53Z" description="PUT. UPDATE USER." data-provider="updateUser_200" finished-at="2018-06-06T00:25:53Z">
+        <test-method status="PASS" signature="testUpdateUser_PUT_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testUpdateUser_PUT_200" duration-ms="361" started-at="2018-06-06T00:40:59Z" description="PUT. UPDATE USER." data-provider="updateUser_200" finished-at="2018-06-06T00:40:59Z">
           <params>
             <param index="0">
               <value>
@@ -429,7 +383,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser_PUT_200 -->
-        <test-method status="PASS" signature="testUpdateUser_PUT_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testUpdateUser_PUT_200" duration-ms="553" started-at="2018-06-06T00:25:53Z" description="PUT. UPDATE USER." data-provider="updateUser_200" finished-at="2018-06-06T00:25:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:59Z" description="Delete temp files" finished-at="2018-06-06T00:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:59Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUpdateUser_PUT_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testUpdateUser_PUT_200" duration-ms="363" started-at="2018-06-06T00:40:59Z" description="PUT. UPDATE USER." data-provider="updateUser_200" finished-at="2018-06-06T00:40:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jacob]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser_PUT_200 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:40:59Z" description="Delete temp files" finished-at="2018-06-06T00:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:40:59Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUpdateUser_PUT_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testUpdateUser_PUT_200" duration-ms="683" started-at="2018-06-06T00:40:59Z" description="PUT. UPDATE USER." data-provider="updateUser_200" finished-at="2018-06-06T00:41:00Z">
           <params>
             <param index="0">
               <value>
@@ -445,53 +429,65 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser_PUT_200 -->
-        <test-method status="PASS" signature="testUpdateUser_PUT_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="testUpdateUser_PUT_200" duration-ms="370" started-at="2018-06-06T00:25:53Z" description="PUT. UPDATE USER." data-provider="updateUser_200" finished-at="2018-06-06T00:25:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:00Z" description="Delete temp files" finished-at="2018-06-06T00:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-06T00:41:00Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUpdateUser_PUT_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testUpdateUser_PUT_200" duration-ms="386" started-at="2018-06-06T00:41:00Z" description="PUT. UPDATE USER." data-provider="updateUser_200" finished-at="2018-06-06T00:41:01Z">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[Jacob]]>
-              </value>
+              <value is-null="true"/>
             </param>
             <param index="1">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[Software Architect]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUser_PUT_200 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:54Z" description="Delete temp files" finished-at="2018-06-06T00:25:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:01Z" description="Delete temp files" finished-at="2018-06-06T00:41:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:54Z" description="Delete temp files" finished-at="2018-06-06T00:25:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-06T00:41:01Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:54Z" description="Delete temp files" finished-at="2018-06-06T00:25:54Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUpdateUser_PUT_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="testUpdateUser_PUT_200" duration-ms="446" started-at="2018-06-06T00:41:01Z" description="PUT. UPDATE USER." data-provider="updateUser_200" finished-at="2018-06-06T00:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UX Designer]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:54Z" description="Delete temp files" finished-at="2018-06-06T00:25:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@76b74e9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:54Z" description="Delete temp files" finished-at="2018-06-06T00:25:54Z">
+        </test-method> <!-- testUpdateUser_PUT_200 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.UserTests@22c01ab0]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:01Z" description="Delete temp files" finished-at="2018-06-06T00:41:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.github.bugscatcher.UserTests -->
     </test> <!-- User Tests -->
-    <test name="Register Tests" duration-ms="1747" started-at="2018-06-06T00:25:54Z" finished-at="2018-06-06T00:25:56Z">
+    <test name="Register Tests" duration-ms="3065" started-at="2018-06-06T00:41:01Z" finished-at="2018-06-06T00:41:04Z">
       <class name="com.github.bugscatcher.RegisterTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="setUp" is-config="true" duration-ms="8" started-at="2018-06-06T00:25:54Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:41:01Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="setUp" is-config="true" duration-ms="8" started-at="2018-06-06T00:25:54Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testRegister_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="testRegister_201" duration-ms="719" started-at="2018-06-06T00:25:54Z" description="POST. REGISTER (SUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:55Z">
+        <test-method status="PASS" signature="testRegister_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="testRegister_201" duration-ms="501" started-at="2018-06-06T00:41:01Z" description="POST. REGISTER (SUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:02Z">
           <params>
             <param index="0">
               <value>
@@ -507,7 +503,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegister_201 -->
-        <test-method status="PASS" signature="testRegister_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="testRegister_201" duration-ms="513" started-at="2018-06-06T00:25:54Z" description="POST. REGISTER (SUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:41:02Z" description="Delete temp files" finished-at="2018-06-06T00:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:41:02Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRegister_201(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="testRegister_201" duration-ms="695" started-at="2018-06-06T00:41:02Z" description="POST. REGISTER (SUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:02Z">
           <params>
             <param index="0">
               <value>
@@ -523,39 +527,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegister_201 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:54Z" description="Delete temp files" finished-at="2018-06-06T00:25:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:02Z" description="Delete temp files" finished-at="2018-06-06T00:41:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:55Z" description="Delete temp files" finished-at="2018-06-06T00:25:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="setUp" is-config="true" duration-ms="8" started-at="2018-06-06T00:25:55Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:41:02Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="setUp" is-config="true" duration-ms="7" started-at="2018-06-06T00:25:55Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testRegister_400_1(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="testRegister_400_1" duration-ms="391" started-at="2018-06-06T00:25:55Z" description="POST. REGISTER (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[inurrick]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[nzkg8vGdbBmePJvEtm8I]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegister_400_1 -->
-        <test-method status="PASS" signature="testRegister_400_1(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="testRegister_400_1" duration-ms="391" started-at="2018-06-06T00:25:55Z" description="POST. REGISTER (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:55Z">
+        <test-method status="PASS" signature="testRegister_400_1(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="testRegister_400_1" duration-ms="552" started-at="2018-06-06T00:41:02Z" description="POST. REGISTER (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:03Z">
           <params>
             <param index="0">
               <value>
@@ -571,23 +551,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegister_400_1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:55Z" description="Delete temp files" finished-at="2018-06-06T00:25:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:41:03Z" description="Delete temp files" finished-at="2018-06-06T00:41:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:55Z" description="Delete temp files" finished-at="2018-06-06T00:25:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="setUp" is-config="true" duration-ms="9" started-at="2018-06-06T00:25:55Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-06T00:41:03Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="setUp" is-config="true" duration-ms="8" started-at="2018-06-06T00:25:55Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testRegister_400_2(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="testRegister_400_2" duration-ms="386" started-at="2018-06-06T00:25:55Z" description="POST. REGISTER (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:55Z">
+        <test-method status="PASS" signature="testRegister_400_1(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="testRegister_400_1" duration-ms="366" started-at="2018-06-06T00:41:03Z" description="POST. REGISTER (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:03Z">
           <params>
             <param index="0">
               <value>
@@ -602,8 +574,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRegister_400_2 -->
-        <test-method status="PASS" signature="testRegister_400_2(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="testRegister_400_2" duration-ms="534" started-at="2018-06-06T00:25:55Z" description="POST. REGISTER (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:56Z">
+        </test-method> <!-- testRegister_400_1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:03Z" description="Delete temp files" finished-at="2018-06-06T00:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="setUp" is-config="true" duration-ms="9" started-at="2018-06-06T00:41:03Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRegister_400_2(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="testRegister_400_2" duration-ms="357" started-at="2018-06-06T00:41:03Z" description="POST. REGISTER (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:04Z">
           <params>
             <param index="0">
               <value>
@@ -619,27 +599,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegister_400_2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:55Z" description="Delete temp files" finished-at="2018-06-06T00:25:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:04Z" description="Delete temp files" finished-at="2018-06-06T00:41:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@35038141]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:56Z" description="Delete temp files" finished-at="2018-06-06T00:25:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:41:04Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRegister_400_2(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="testRegister_400_2" duration-ms="389" started-at="2018-06-06T00:41:04Z" description="POST. REGISTER (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inurrick]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nzkg8vGdbBmePJvEtm8I]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegister_400_2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.RegisterTests@2ca65ce4]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:41:04Z" description="Delete temp files" finished-at="2018-06-06T00:41:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.github.bugscatcher.RegisterTests -->
     </test> <!-- Register Tests -->
-    <test name="Login Tests" duration-ms="1857" started-at="2018-06-06T00:25:56Z" finished-at="2018-06-06T00:25:57Z">
+    <test name="Login Tests" duration-ms="3202" started-at="2018-06-06T00:41:04Z" finished-at="2018-06-06T00:41:07Z">
       <class name="com.github.bugscatcher.LoginTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="setUp" is-config="true" duration-ms="7" started-at="2018-06-06T00:25:56Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:41:04Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="setUp" is-config="true" duration-ms="7" started-at="2018-06-06T00:25:56Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="testLogin_200" duration-ms="541" started-at="2018-06-06T00:25:56Z" description="POST. LOGIN (SUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:56Z">
+        <test-method status="PASS" signature="testLogin_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="testLogin_200" duration-ms="513" started-at="2018-06-06T00:41:04Z" description="POST. LOGIN (SUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:05Z">
           <params>
             <param index="0">
               <value>
@@ -655,7 +651,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin_200 -->
-        <test-method status="PASS" signature="testLogin_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="testLogin_200" duration-ms="360" started-at="2018-06-06T00:25:56Z" description="POST. LOGIN (SUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:05Z" description="Delete temp files" finished-at="2018-06-06T00:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-06T00:41:05Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin_200(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="testLogin_200" duration-ms="369" started-at="2018-06-06T00:41:05Z" description="POST. LOGIN (SUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:05Z">
           <params>
             <param index="0">
               <value>
@@ -671,23 +675,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin_200 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:56Z" description="Delete temp files" finished-at="2018-06-06T00:25:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:41:05Z" description="Delete temp files" finished-at="2018-06-06T00:41:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:56Z" description="Delete temp files" finished-at="2018-06-06T00:25:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="setUp" is-config="true" duration-ms="11" started-at="2018-06-06T00:25:56Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:41:05Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="setUp" is-config="true" duration-ms="11" started-at="2018-06-06T00:25:56Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin_400_1(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="testLogin_400_1" duration-ms="559" started-at="2018-06-06T00:25:56Z" description="POST. LOGIN (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:57Z">
+        <test-method status="PASS" signature="testLogin_400_1(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="testLogin_400_1" duration-ms="560" started-at="2018-06-06T00:41:05Z" description="POST. LOGIN (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:06Z">
           <params>
             <param index="0">
               <value>
@@ -703,7 +699,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin_400_1 -->
-        <test-method status="PASS" signature="testLogin_400_1(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="testLogin_400_1" duration-ms="666" started-at="2018-06-06T00:25:56Z" description="POST. LOGIN (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:06Z" description="Delete temp files" finished-at="2018-06-06T00:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="setUp" is-config="true" duration-ms="6" started-at="2018-06-06T00:41:06Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin_400_1(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="testLogin_400_1" duration-ms="651" started-at="2018-06-06T00:41:06Z" description="POST. LOGIN (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:06Z">
           <params>
             <param index="0">
               <value>
@@ -719,39 +723,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin_400_1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:57Z" description="Delete temp files" finished-at="2018-06-06T00:25:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:06Z" description="Delete temp files" finished-at="2018-06-06T00:41:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:57Z" description="Delete temp files" finished-at="2018-06-06T00:25:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="setUp" is-config="true" duration-ms="12" started-at="2018-06-06T00:25:57Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-06T00:41:06Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="setUp" is-config="true" duration-ms="12" started-at="2018-06-06T00:25:57Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testLogin_400_2(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="testLogin_400_2" duration-ms="393" started-at="2018-06-06T00:25:57Z" description="POST. LOGIN (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[inurrick]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[nzkg8vGdbBmePJvEtm8I]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin_400_2 -->
-        <test-method status="PASS" signature="testLogin_400_2(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="testLogin_400_2" duration-ms="520" started-at="2018-06-06T00:25:57Z" description="POST. LOGIN (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:25:57Z">
+        <test-method status="PASS" signature="testLogin_400_2(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="testLogin_400_2" duration-ms="532" started-at="2018-06-06T00:41:06Z" description="POST. LOGIN (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:07Z">
           <params>
             <param index="0">
               <value>
@@ -767,51 +747,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin_400_2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:57Z" description="Delete temp files" finished-at="2018-06-06T00:25:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:07Z" description="Delete temp files" finished-at="2018-06-06T00:41:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@41200e0c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:57Z" description="Delete temp files" finished-at="2018-06-06T00:25:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="setUp" is-config="true" duration-ms="8" started-at="2018-06-06T00:41:07Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin_400_2(java.lang.String, java.lang.String)[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="testLogin_400_2" duration-ms="373" started-at="2018-06-06T00:41:07Z" description="POST. LOGIN (UNSUCCESSFUL)." data-provider="registerUser" finished-at="2018-06-06T00:41:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[inurrick]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nzkg8vGdbBmePJvEtm8I]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin_400_2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.LoginTests@2970a5bc]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:41:07Z" description="Delete temp files" finished-at="2018-06-06T00:41:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.github.bugscatcher.LoginTests -->
     </test> <!-- Login Tests -->
-    <test name="Resource Tests" duration-ms="1268" started-at="2018-06-06T00:25:57Z" finished-at="2018-06-06T00:25:59Z">
+    <test name="Resource Tests" duration-ms="1216" started-at="2018-06-06T00:41:07Z" finished-at="2018-06-06T00:41:09Z">
       <class name="com.github.bugscatcher.ResourceTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.ResourceTests@70d2e40b]" name="setUp" is-config="true" duration-ms="5" started-at="2018-06-06T00:25:57Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.ResourceTests@24be2d9c]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:41:07Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testListResource_200()[pri:0, instance:com.github.bugscatcher.ResourceTests@70d2e40b]" name="testListResource_200" duration-ms="390" started-at="2018-06-06T00:25:57Z" description="GET. LIST RESOURCES." finished-at="2018-06-06T00:25:58Z">
+        <test-method status="PASS" signature="testListResource_200()[pri:0, instance:com.github.bugscatcher.ResourceTests@24be2d9c]" name="testListResource_200" duration-ms="366" started-at="2018-06-06T00:41:08Z" description="GET. LIST RESOURCES." finished-at="2018-06-06T00:41:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListResource_200 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.ResourceTests@70d2e40b]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:25:58Z" description="Delete temp files" finished-at="2018-06-06T00:25:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.ResourceTests@24be2d9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:41:08Z" description="Delete temp files" finished-at="2018-06-06T00:41:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.ResourceTests@70d2e40b]" name="setUp" is-config="true" duration-ms="10" started-at="2018-06-06T00:25:58Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.ResourceTests@24be2d9c]" name="setUp" is-config="true" duration-ms="4" started-at="2018-06-06T00:41:08Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSingleResource_200()[pri:0, instance:com.github.bugscatcher.ResourceTests@70d2e40b]" name="testSingleResource_200" duration-ms="364" started-at="2018-06-06T00:25:58Z" description="GET. SINGLE RESOURCE." finished-at="2018-06-06T00:25:58Z">
+        <test-method status="PASS" signature="testSingleResource_200()[pri:0, instance:com.github.bugscatcher.ResourceTests@24be2d9c]" name="testSingleResource_200" duration-ms="380" started-at="2018-06-06T00:41:08Z" description="GET. SINGLE RESOURCE." finished-at="2018-06-06T00:41:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSingleResource_200 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.ResourceTests@70d2e40b]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:58Z" description="Delete temp files" finished-at="2018-06-06T00:25:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.ResourceTests@24be2d9c]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-06T00:41:08Z" description="Delete temp files" finished-at="2018-06-06T00:41:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.ResourceTests@70d2e40b]" name="setUp" is-config="true" duration-ms="3" started-at="2018-06-06T00:25:58Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:25:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.github.bugscatcher.ResourceTests@24be2d9c]" name="setUp" is-config="true" duration-ms="6" started-at="2018-06-06T00:41:08Z" description="Configure temp files, base uri, base path and etc." finished-at="2018-06-06T00:41:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSingleResource_404()[pri:0, instance:com.github.bugscatcher.ResourceTests@70d2e40b]" name="testSingleResource_404" duration-ms="367" started-at="2018-06-06T00:25:58Z" description="GET. SINGLE RESOURCE (NOT FOUND)." finished-at="2018-06-06T00:25:59Z">
+        <test-method status="PASS" signature="testSingleResource_404()[pri:0, instance:com.github.bugscatcher.ResourceTests@24be2d9c]" name="testSingleResource_404" duration-ms="375" started-at="2018-06-06T00:41:08Z" description="GET. SINGLE RESOURCE (NOT FOUND)." finished-at="2018-06-06T00:41:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSingleResource_404 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.ResourceTests@70d2e40b]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:25:59Z" description="Delete temp files" finished-at="2018-06-06T00:25:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.github.bugscatcher.ResourceTests@24be2d9c]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-06T00:41:09Z" description="Delete temp files" finished-at="2018-06-06T00:41:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

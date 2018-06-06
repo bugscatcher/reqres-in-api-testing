@@ -1,0 +1,40 @@
+HTTP/1.1 200 OK
+Date: Wed, 06 Jun 2018 00:40:54 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=de75b72effa403791de6f1c63c61fa0961528245653; expires=Thu, 06-Jun-19 00:40:53 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"1bb-wM9a6JWbwt3JpLNfwoQwxnqaC3Y"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 4266d488bb456403-FRA
+Content-Encoding: gzip
+
+{
+    "page": 2,
+    "per_page": 3,
+    "total": 12,
+    "total_pages": 4,
+    "data": [
+        {
+            "id": 4,
+            "first_name": "Eve",
+            "last_name": "Holt",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg"
+        },
+        {
+            "id": 5,
+            "first_name": "Charles",
+            "last_name": "Morris",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+        },
+        {
+            "id": 6,
+            "first_name": "Tracey",
+            "last_name": "Ramos",
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg"
+        }
+    ]
+}

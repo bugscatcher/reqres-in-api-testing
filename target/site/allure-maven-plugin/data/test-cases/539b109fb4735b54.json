@@ -1,0 +1,119 @@
+{
+  "uid" : "539b109fb4735b54",
+  "name" : "DELETE. DELETE USER.",
+  "fullName" : "com.github.bugscatcher.UserTests.testDeleteUser_204",
+  "historyId" : "a711ab9d007446de11470618aa690181",
+  "time" : {
+    "start" : 1528245654467,
+    "stop" : 1528245655171,
+    "duration" : 704
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Testing user deletion.",
+  "descriptionHtml" : "<p>Testing user deletion.</p>",
+  "beforeStages" : [ {
+    "name" : "Configure temp files, base uri, base path and etc.",
+    "time" : {
+      "start" : 1528245654453,
+      "stop" : 1528245654458,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Delete resource",
+      "time" : {
+        "start" : 1528245654467,
+        "stop" : 1528245655171,
+        "duration" : 704
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9162d0ca8563cbdc",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\request-8239647550799405321.xml",
+        "source" : "9162d0ca8563cbdc.txt",
+        "type" : "text/plain",
+        "size" : 300
+      }, {
+        "uid" : "c2e820c44075905f",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\response-8884339296043006653.xml",
+        "source" : "c2e820c44075905f.txt",
+        "type" : "text/plain",
+        "size" : 463
+      } ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "/users/2"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "Delete temp files",
+    "time" : {
+      "start" : 1528245655179,
+      "stop" : 1528245655179,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDeleteUser_204"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "host",
+    "value" : "AINUR-BINADOX"
+  }, {
+    "name" : "thread",
+    "value" : "6080@AINUR-BINADOX.TestNG-test=User Tests-1(14)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}
