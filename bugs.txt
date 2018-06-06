@@ -1,0 +1,62 @@
+I don't know for sure whether these requests are related to each other or not. For example I created a user (POST "/api/users") and try to get it out (GET "/api/users" or "/api/users/id"), but my user doesn't exist there. This is an error if these requests are related and use common storage.
+
+-----
+
+The same applies to the user's login. I receive a token with any user. This is clearly wrong.
+
+-----
+
+Actions:
+POST https://reqres.in/api/users
+{
+    "name": "Ainur",
+    "job": "Team Leader"
+}
+
+Expected Result:
+"createdAt" displays the correct time. 
+
+Actual Result:
+"createdAt" displays the wrong time (see the tests in the source code). Time difference 1 minute
+
+-----
+
+Actions:
+PUT https://reqres.in/api/users/10
+{
+    "name": "Ainur",
+    "job": "Chairman"
+}
+
+Expected Result:
+"updatedAt" displays the correct time. 
+
+Actual Result:
+"updatedAt" displays the wrong time (see the tests in the source code). Time difference 1 minute
+
+-----
+
+Actions:
+PATCH https://reqres.in/api/users/10
+{
+    "name": "Ainur",
+    "job": "Chairman"
+}
+
+Expected Result:
+"updatedAt" displays the correct time. 
+
+Actual Result:
+"updatedAt" displays the wrong time (see the tests in the source code). Time difference 1 minute
+
+-----
+
+Actions:
+GET https://reqres.in/api/users?page=9999999999999999
+(or page > 9999999999999999)
+
+Expected Result:
+"page" displays the correct page number. 
+
+Actual Result:
+"page" displays the wrong page number.
