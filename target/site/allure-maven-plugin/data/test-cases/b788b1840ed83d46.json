@@ -1,0 +1,134 @@
+{
+  "uid" : "b788b1840ed83d46",
+  "name" : "PUT. UPDATE USER.",
+  "fullName" : "com.github.bugscatcher.UserTests.testUpdateUser_PUT_200",
+  "historyId" : "c8d300458176e008276229a33ee943bd",
+  "time" : {
+    "start" : 1528281955166,
+    "stop" : 1528281956233,
+    "duration" : 1067
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Testing an user update.",
+  "descriptionHtml" : "<p>Testing an user update.</p>",
+  "beforeStages" : [ {
+    "name" : "Configure temp files, base uri, base path and etc.",
+    "time" : {
+      "start" : 1528281955155,
+      "stop" : 1528281955159,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Update resource",
+      "time" : {
+        "start" : 1528281955166,
+        "stop" : 1528281956231,
+        "duration" : 1065
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fbd6f5be80dfb3f3",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\request-7233395466351028902.xml",
+        "source" : "fbd6f5be80dfb3f3.txt",
+        "type" : "text/plain",
+        "size" : 343
+      }, {
+        "uid" : "b805b7e81e71edb0",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\response-3165176963956071546.xml",
+        "source" : "b805b7e81e71edb0.txt",
+        "type" : "text/plain",
+        "size" : 652
+      } ],
+      "parameters" : [ {
+        "name" : "body",
+        "value" : "com.github.bugscatcher.dto.users.UserNewDTO@5e48336b"
+      }, {
+        "name" : "method",
+        "value" : "PUT"
+      }, {
+        "name" : "path",
+        "value" : "/users/4"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "Delete temp files",
+    "time" : {
+      "start" : 1528281956240,
+      "stop" : 1528281956240,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUpdateUser_PUT_200"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "host",
+    "value" : "AINUR-BINADOX"
+  }, {
+    "name" : "thread",
+    "value" : "12360@AINUR-BINADOX.TestNG-test=User Tests-1(14)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "4"
+  }, {
+    "name" : "arg1",
+    "value" : "null"
+  }, {
+    "name" : "arg2",
+    "value" : "Software Architect"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

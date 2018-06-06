@@ -1,0 +1,19 @@
+HTTP/1.1 201 Created
+Date: Wed, 06 Jun 2018 10:45:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 75
+Connection: keep-alive
+Set-Cookie: __cfduid=db6e25a8a288ea4018626a06ebbe754ba1528281912; expires=Thu, 06-Jun-19 10:45:12 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"4b-TPGq70YWR+PCtn7uGS/rNC6CBMk"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 426a49bf3a2295b0-IAD
+
+{
+    "name": "Jacob",
+    "job": "",
+    "id": "277",
+    "createdAt": "2018-06-06T10:46:05.519Z"
+}

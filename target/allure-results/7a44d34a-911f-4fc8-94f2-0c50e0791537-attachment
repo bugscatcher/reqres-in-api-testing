@@ -1,0 +1,10 @@
+HTTP/1.1 204 No Content
+Date: Wed, 06 Jun 2018 10:45:37 GMT
+Connection: keep-alive
+Set-Cookie: __cfduid=d5d483a4f00833fb4beaa44e0ff1a53321528281937; expires=Thu, 06-Jun-19 10:45:37 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 426a4a5d1de69fd8-IAD

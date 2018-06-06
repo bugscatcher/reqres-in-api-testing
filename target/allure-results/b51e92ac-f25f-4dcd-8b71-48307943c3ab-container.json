@@ -1,1 +1,0 @@
-{"uuid":"b51e92ac-f25f-4dcd-8b71-48307943c3ab","name":"com.github.bugscatcher.Abstract.tearDown","description":"Delete temp files","start":1528245661578,"stop":1528245661578,"children":["1a40ffaa-4e38-4ac7-9775-b809cea0c001"],"afters":[{"name":"Delete temp files","status":"passed","stage":"finished","description":"Delete temp files","start":1528245661578,"stop":1528245661578}]}

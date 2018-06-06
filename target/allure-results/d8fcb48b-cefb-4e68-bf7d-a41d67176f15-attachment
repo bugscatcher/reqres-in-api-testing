@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Wed, 06 Jun 2018 10:46:16 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d431343614a27315b914985357dde211f1528281976; expires=Thu, 06-Jun-19 10:46:16 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"5f-qf+UgKUMjkSAGjrplyO8o+xlxvI"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 426a4b4e49349fd8-IAD
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 2,
+        "name": "fuchsia rose",
+        "year": 2001,
+        "color": "#C74375",
+        "pantone_value": "17-2031"
+    }
+}

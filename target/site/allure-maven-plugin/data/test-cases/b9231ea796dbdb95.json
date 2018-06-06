@@ -1,0 +1,142 @@
+{
+  "uid" : "b9231ea796dbdb95",
+  "name" : "GET. DELAYED RESPONSE.",
+  "fullName" : "com.github.bugscatcher.UserTests.testDelayedResponse_200",
+  "historyId" : "dad8bc8cab08a874fbd124b9fd744b5",
+  "time" : {
+    "start" : 1528281916460,
+    "stop" : 1528281922667,
+    "duration" : 6207
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Testing the delayed response.",
+  "descriptionHtml" : "<p>Testing the delayed response.</p>",
+  "beforeStages" : [ {
+    "name" : "Configure temp files, base uri, base path and etc.",
+    "time" : {
+      "start" : 1528281916442,
+      "stop" : 1528281916452,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Get resource",
+      "time" : {
+        "start" : 1528281916460,
+        "stop" : 1528281922631,
+        "duration" : 6171
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3763f136ca3dd3c1",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\request-1549941313865562231.xml",
+        "source" : "3763f136ca3dd3c1.txt",
+        "type" : "text/plain",
+        "size" : 303
+      }, {
+        "uid" : "603a342c0aacc2a7",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\response-5724549176562764005.xml",
+        "source" : "603a342c0aacc2a7.txt",
+        "type" : "text/plain",
+        "size" : 1256
+      } ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "/users?delay=5"
+      } ]
+    }, {
+      "name" : "Get expected result from resources",
+      "time" : {
+        "start" : 1528281922650,
+        "stop" : 1528281922666,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "data/listUsers.json"
+      }, {
+        "name" : "valueClass",
+        "value" : "class [Lcom.github.bugscatcher.dto.users.UserDTO;"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "Delete temp files",
+    "time" : {
+      "start" : 1528281922676,
+      "stop" : 1528281922676,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDelayedResponse_200"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "host",
+    "value" : "AINUR-BINADOX"
+  }, {
+    "name" : "thread",
+    "value" : "12360@AINUR-BINADOX.TestNG-test=User Tests-1(14)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "5"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

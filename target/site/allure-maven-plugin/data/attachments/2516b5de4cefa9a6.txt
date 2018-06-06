@@ -1,0 +1,16 @@
+HTTP/1.1 400 Bad Request
+Date: Wed, 06 Jun 2018 10:46:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Connection: keep-alive
+Set-Cookie: __cfduid=d9394f3e5289c8f7f3c634e99b8f61e471528281967; expires=Thu, 06-Jun-19 10:46:07 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 426a4b1b9e0856c9-IAD
+
+{
+    "error": "Missing password"
+}

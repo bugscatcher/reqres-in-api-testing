@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Date: Wed, 06 Jun 2018 10:46:15 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dc142276a6fbca9e381b088af46d182601528281974; expires=Thu, 06-Jun-19 10:46:14 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"5b-B24LXhQXF6Vn3+qaVTMGF1r00uA"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 426a4b474a2b95b0-IAD
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 1,
+        "name": "cerulean",
+        "year": 2000,
+        "color": "#98B2D1",
+        "pantone_value": "15-4020"
+    }
+}

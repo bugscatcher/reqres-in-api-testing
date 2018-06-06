@@ -1,8 +1,8 @@
 package com.github.bugscatcher.dto;
 
 public class PageDTO {
-    private String page;
-    private String per_page;
+    private String page = "1";
+    private String per_page = "3";
     private String total;
     private String total_pages;
 

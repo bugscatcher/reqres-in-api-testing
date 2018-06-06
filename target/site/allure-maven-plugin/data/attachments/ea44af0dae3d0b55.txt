@@ -1,0 +1,19 @@
+HTTP/1.1 201 Created
+Date: Wed, 06 Jun 2018 10:45:14 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 88
+Connection: keep-alive
+Set-Cookie: __cfduid=d7d209ad9eaca9b46654534f98f3b4c1a1528281914; expires=Thu, 06-Jun-19 10:45:14 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"58-ss1oSUURtTgSKvJIX8PXtK0DbiI"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 426a49cd4c199ff0-IAD
+
+{
+    "name": "",
+    "job": "Software Architect",
+    "id": "450",
+    "createdAt": "2018-06-06T10:46:07.775Z"
+}

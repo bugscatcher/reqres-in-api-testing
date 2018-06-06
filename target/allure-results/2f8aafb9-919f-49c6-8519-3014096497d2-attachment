@@ -1,0 +1,16 @@
+HTTP/1.1 404 Not Found
+Date: Wed, 06 Jun 2018 10:45:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Set-Cookie: __cfduid=d96677f7bc97399475f38969c23f0b61c1528281945; expires=Thu, 06-Jun-19 10:45:45 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 426a4a8f3df79568-IAD
+
+{
+    
+}

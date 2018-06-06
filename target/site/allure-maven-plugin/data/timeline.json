@@ -3,535 +3,634 @@
     "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 38,
+    "passed" : 47,
     "unknown" : 0,
-    "total" : 38
+    "total" : 47
   },
   "time" : {
-    "minDuration" : 355,
-    "maxDuration" : 10548,
-    "sumDuration" : 35085,
-    "start" : 1528245632733,
-    "stop" : 1528245669191,
-    "duration" : 36458
+    "minDuration" : 1052,
+    "maxDuration" : 11087,
+    "sumDuration" : 68338,
+    "start" : 1528281909106,
+    "stop" : 1528281979076,
+    "duration" : 69970
   },
   "children" : [ {
-    "uid" : "bf2563f30d781c6b",
+    "uid" : "9017fd9e75652296",
     "name" : "AINUR-BINADOX",
     "time" : {
-      "minDuration" : 355,
-      "maxDuration" : 10548,
-      "sumDuration" : 35085,
-      "start" : 1528245632733,
-      "stop" : 1528245669191,
-      "duration" : 36458
+      "minDuration" : 1052,
+      "maxDuration" : 11087,
+      "sumDuration" : 68338,
+      "start" : 1528281909106,
+      "stop" : 1528281979076,
+      "duration" : 69970
     },
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 38,
+      "passed" : 47,
       "unknown" : 0,
-      "total" : 38
+      "total" : 47
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "404dd8815745eedf",
-      "name" : "6080@AINUR-BINADOX.TestNG-test=Register Tests-1(15)",
+      "uid" : "871de31ba4010835",
+      "name" : "12360@AINUR-BINADOX.TestNG-test=Resource Tests-1(17)",
       "time" : {
-        "minDuration" : 355,
-        "maxDuration" : 694,
-        "sumDuration" : 2853,
-        "start" : 1528245661666,
-        "stop" : 1528245664694,
-        "duration" : 3028
+        "minDuration" : 1066,
+        "maxDuration" : 1280,
+        "sumDuration" : 7787,
+        "start" : 1528281971070,
+        "stop" : 1528281979076,
+        "duration" : 8006
       },
       "statistic" : {
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "1ff57fae1a7ce454",
-        "name" : "POST. REGISTER (UNSUCCESSFUL).",
-        "time" : {
-          "start" : 1528245663928,
-          "stop" : 1528245664283,
-          "duration" : 355
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "1ccaef1101308262",
-        "name" : "POST. REGISTER (SUCCESSFUL).",
-        "time" : {
-          "start" : 1528245662189,
-          "stop" : 1528245662883,
-          "duration" : 694
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "d77e39c3e1f894da",
-        "name" : "POST. REGISTER (SUCCESSFUL).",
-        "time" : {
-          "start" : 1528245661666,
-          "stop" : 1528245662166,
-          "duration" : 500
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "f571976dd472ebc7",
-        "name" : "POST. REGISTER (UNSUCCESSFUL).",
-        "time" : {
-          "start" : 1528245662908,
-          "stop" : 1528245663459,
-          "duration" : 551
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "ac8766f630ba6891",
-        "name" : "POST. REGISTER (UNSUCCESSFUL).",
-        "time" : {
-          "start" : 1528245663499,
-          "stop" : 1528245663864,
-          "duration" : 365
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "fa858dd88bf6b43b",
-        "name" : "POST. REGISTER (UNSUCCESSFUL).",
-        "time" : {
-          "start" : 1528245664306,
-          "stop" : 1528245664694,
-          "duration" : 388
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "5504902058a4f9b",
-      "name" : "6080@AINUR-BINADOX.TestNG-test=User Tests-1(14)",
-      "time" : {
-        "minDuration" : 358,
-        "maxDuration" : 10548,
-        "sumDuration" : 28122,
-        "start" : 1528245632733,
-        "stop" : 1528245661563,
-        "duration" : 28830
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 23,
-        "unknown" : 0,
-        "total" : 23
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "3e9095db7484887a",
-        "name" : "PUT. UPDATE USER.",
-        "time" : {
-          "start" : 1528245660702,
-          "stop" : 1528245661087,
-          "duration" : 385
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "dbb09e0272430b3b",
-        "name" : "PUT. UPDATE USER.",
-        "time" : {
-          "start" : 1528245661117,
-          "stop" : 1528245661563,
-          "duration" : 446
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "804f486494e3a9b7",
-        "name" : "PATCH. UPDATE USER.",
-        "time" : {
-          "start" : 1528245658786,
-          "stop" : 1528245659154,
-          "duration" : 368
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "52ef53507ef43696",
-        "name" : "GET. SINGLE USER (NOT FOUND).",
-        "time" : {
-          "start" : 1528245656313,
-          "stop" : 1528245656680,
-          "duration" : 367
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "4ac3a656442b6792",
-        "name" : "PUT. UPDATE USER.",
-        "time" : {
-          "start" : 1528245659983,
-          "stop" : 1528245660665,
-          "duration" : 682
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "32abcc91b0c098d1",
-        "name" : "GET. DELAYED RESPONSE.",
-        "time" : {
-          "start" : 1528245653459,
-          "stop" : 1528245654025,
-          "duration" : 566
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "b11e95745ea3d429",
-        "name" : "GET. DELAYED RESPONSE.",
-        "time" : {
-          "start" : 1528245654050,
-          "stop" : 1528245654430,
-          "duration" : 380
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "51afbea12bec846",
-        "name" : "PATCH. UPDATE USER.",
-        "time" : {
-          "start" : 1528245656713,
-          "stop" : 1528245657102,
-          "duration" : 389
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "849118209b5d188a",
-        "name" : "POST. CREATE USER.",
-        "time" : {
-          "start" : 1528245635762,
-          "stop" : 1528245636173,
-          "duration" : 411
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "1a86b55b54c12776",
-        "name" : "GET. SINGLE USER.",
-        "time" : {
-          "start" : 1528245655932,
-          "stop" : 1528245656290,
-          "duration" : 358
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "539b109fb4735b54",
-        "name" : "DELETE. DELETE USER.",
-        "time" : {
-          "start" : 1528245654467,
-          "stop" : 1528245655171,
-          "duration" : 704
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "ec7ffdaa46413de",
-        "name" : "PUT. UPDATE USER.",
-        "time" : {
-          "start" : 1528245659203,
-          "stop" : 1528245659563,
-          "duration" : 360
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "42382508e6f649c6",
-        "name" : "POST. CREATE USER.",
-        "time" : {
-          "start" : 1528245636595,
-          "stop" : 1528245637268,
-          "duration" : 673
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "ce3f5a4aa2409c96",
-        "name" : "POST. CREATE USER.",
-        "time" : {
-          "start" : 1528245632733,
-          "stop" : 1528245635141,
-          "duration" : 2408
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "72226b4f49f3249c",
-        "name" : "PATCH. UPDATE USER.",
-        "time" : {
-          "start" : 1528245657146,
-          "stop" : 1528245657512,
-          "duration" : 366
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "88b5ae1e5f8600a5",
-        "name" : "PUT. UPDATE USER.",
-        "time" : {
-          "start" : 1528245659586,
-          "stop" : 1528245659949,
-          "duration" : 363
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "760b34471a58c7f6",
-        "name" : "PATCH. UPDATE USER.",
-        "time" : {
-          "start" : 1528245658087,
-          "stop" : 1528245658762,
-          "duration" : 675
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "c92ec27a478d850c",
-        "name" : "POST. CREATE USER.",
-        "time" : {
-          "start" : 1528245636204,
-          "stop" : 1528245636571,
-          "duration" : 367
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "d46120fa836fcc5a",
-        "name" : "POST. CREATE USER.",
-        "time" : {
-          "start" : 1528245635183,
-          "stop" : 1528245635738,
-          "duration" : 555
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "26a893766f1ad60b",
-        "name" : "GET. DELAYED RESPONSE.",
-        "time" : {
-          "start" : 1528245637313,
-          "stop" : 1528245642839,
-          "duration" : 5526
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "b9efb4c40d06caf0",
-        "name" : "PATCH. UPDATE USER.",
-        "time" : {
-          "start" : 1528245657542,
-          "stop" : 1528245658054,
-          "duration" : 512
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "ff19a229187f890d",
-        "name" : "GET. LIST USERS.",
-        "time" : {
-          "start" : 1528245655196,
-          "stop" : 1528245655909,
-          "duration" : 713
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "38754ca5917d0f19",
-        "name" : "GET. DELAYED RESPONSE.",
-        "time" : {
-          "start" : 1528245642864,
-          "stop" : 1528245653412,
-          "duration" : 10548
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "ab00d3212a33b23c",
-      "name" : "6080@AINUR-BINADOX.TestNG-test=Login Tests-1(16)",
-      "time" : {
-        "minDuration" : 368,
-        "maxDuration" : 650,
-        "sumDuration" : 2991,
-        "start" : 1528245664768,
-        "stop" : 1528245667933,
-        "duration" : 3165
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 6,
-        "unknown" : 0,
-        "total" : 6
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "349b0a5d489dd2fa",
-        "name" : "POST. LOGIN (SUCCESSFUL).",
-        "time" : {
-          "start" : 1528245664768,
-          "stop" : 1528245665280,
-          "duration" : 512
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "224f5cd2fbba6e88",
-        "name" : "POST. LOGIN (UNSUCCESSFUL).",
-        "time" : {
-          "start" : 1528245667562,
-          "stop" : 1528245667933,
-          "duration" : 371
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "4a43c58bb05682f",
-        "name" : "POST. LOGIN (UNSUCCESSFUL).",
-        "time" : {
-          "start" : 1528245665714,
-          "stop" : 1528245666273,
-          "duration" : 559
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "72efd0bc5324cd72",
-        "name" : "POST. LOGIN (SUCCESSFUL).",
-        "time" : {
-          "start" : 1528245665311,
-          "stop" : 1528245665679,
-          "duration" : 368
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "db121a5671b625e0",
-        "name" : "POST. LOGIN (UNSUCCESSFUL).",
-        "time" : {
-          "start" : 1528245666982,
-          "stop" : 1528245667513,
-          "duration" : 531
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "2a013d19550e1700",
-        "name" : "POST. LOGIN (UNSUCCESSFUL).",
-        "time" : {
-          "start" : 1528245666307,
-          "stop" : 1528245666957,
-          "duration" : 650
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      } ]
-    }, {
-      "uid" : "57678bea137f3ae7",
-      "name" : "6080@AINUR-BINADOX.TestNG-test=Resource Tests-1(17)",
-      "time" : {
-        "minDuration" : 365,
-        "maxDuration" : 380,
-        "sumDuration" : 1119,
-        "start" : 1528245668006,
-        "stop" : 1528245669191,
-        "duration" : 1185
-      },
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 3,
-        "unknown" : 0,
-        "total" : 3
-      },
-      "type" : "TestGroupNode",
-      "children" : [ {
-        "uid" : "f068b80d7bdd55d9",
-        "name" : "GET. SINGLE RESOURCE.",
-        "time" : {
-          "start" : 1528245668398,
-          "stop" : 1528245668778,
-          "duration" : 380
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "c9b3b94e662b573",
-        "name" : "GET. SINGLE RESOURCE (NOT FOUND).",
-        "time" : {
-          "start" : 1528245668817,
-          "stop" : 1528245669191,
-          "duration" : 374
-        },
-        "status" : "passed",
-        "flaky" : false,
-        "type" : "TestCaseNode"
-      }, {
-        "uid" : "b22f4a5b62775156",
+        "uid" : "a91f82d8fc5fb0d3",
         "name" : "GET. LIST RESOURCES.",
         "time" : {
-          "start" : 1528245668006,
-          "stop" : 1528245668371,
-          "duration" : 365
+          "start" : 1528281972378,
+          "stop" : 1528281973470,
+          "duration" : 1092
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "c07d34ca5251f12a",
+        "name" : "GET. SINGLE RESOURCE (NOT FOUND).",
+        "time" : {
+          "start" : 1528281978010,
+          "stop" : 1528281979076,
+          "duration" : 1066
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "6fcc134055ddb05c",
+        "name" : "GET. LIST RESOURCES.",
+        "time" : {
+          "start" : 1528281971070,
+          "stop" : 1528281972350,
+          "duration" : 1280
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "e94819448d1aa556",
+        "name" : "GET. SINGLE RESOURCE.",
+        "time" : {
+          "start" : 1528281975768,
+          "stop" : 1528281976845,
+          "duration" : 1077
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "3df03d14398ac007",
+        "name" : "GET. LIST RESOURCES.",
+        "time" : {
+          "start" : 1528281973502,
+          "stop" : 1528281974602,
+          "duration" : 1100
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "f577f8587d16664f",
+        "name" : "GET. SINGLE RESOURCE (NOT FOUND).",
+        "time" : {
+          "start" : 1528281976879,
+          "stop" : 1528281977963,
+          "duration" : 1084
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "3c78a2cefc13f954",
+        "name" : "GET. SINGLE RESOURCE.",
+        "time" : {
+          "start" : 1528281974646,
+          "stop" : 1528281975734,
+          "duration" : 1088
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "c65ea966e7192f6c",
+      "name" : "12360@AINUR-BINADOX.TestNG-test=User Tests-1(14)",
+      "time" : {
+        "minDuration" : 1056,
+        "maxDuration" : 11087,
+        "sumDuration" : 47370,
+        "start" : 1528281909106,
+        "stop" : 1528281957346,
+        "duration" : 48240
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 28,
+        "unknown" : 0,
+        "total" : 28
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "90ef889fb635ce2e",
+        "name" : "PATCH. UPDATE USER.",
+        "time" : {
+          "start" : 1528281947378,
+          "stop" : 1528281948471,
+          "duration" : 1093
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "e6e3fb99394393ff",
+        "name" : "PUT. UPDATE USER.",
+        "time" : {
+          "start" : 1528281951840,
+          "stop" : 1528281952924,
+          "duration" : 1084
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "23768d187ffb267",
+        "name" : "GET. SINGLE USER.",
+        "time" : {
+          "start" : 1528281941592,
+          "stop" : 1528281942791,
+          "duration" : 1199
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "b788b1840ed83d46",
+        "name" : "PUT. UPDATE USER.",
+        "time" : {
+          "start" : 1528281955166,
+          "stop" : 1528281956233,
+          "duration" : 1067
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "695a88d90ea6f03d",
+        "name" : "GET. SINGLE USER.",
+        "time" : {
+          "start" : 1528281942833,
+          "stop" : 1528281944012,
+          "duration" : 1179
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "4e8df203fcbd4db2",
+        "name" : "PUT. UPDATE USER.",
+        "time" : {
+          "start" : 1528281952955,
+          "stop" : 1528281954042,
+          "duration" : 1087
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "5f4f8c2d69f8bdf4",
+        "name" : "PATCH. UPDATE USER.",
+        "time" : {
+          "start" : 1528281946281,
+          "stop" : 1528281947346,
+          "duration" : 1065
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "2b135e9c93783e73",
+        "name" : "GET. SINGLE USER (NOT FOUND).",
+        "time" : {
+          "start" : 1528281945180,
+          "stop" : 1528281946258,
+          "duration" : 1078
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "382360452aa6681c",
+        "name" : "PATCH. UPDATE USER.",
+        "time" : {
+          "start" : 1528281949625,
+          "stop" : 1528281950713,
+          "duration" : 1088
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "b340e2adcdcd65d2",
+        "name" : "POST. CREATE USER.",
+        "time" : {
+          "start" : 1528281914147,
+          "stop" : 1528281915260,
+          "duration" : 1113
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "980d2539c34f2608",
+        "name" : "POST. CREATE USER.",
+        "time" : {
+          "start" : 1528281913011,
+          "stop" : 1528281914104,
+          "duration" : 1093
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "631cde7f568fe5b9",
+        "name" : "GET. LIST USERS.",
+        "time" : {
+          "start" : 1528281940492,
+          "stop" : 1528281941569,
+          "duration" : 1077
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "df4ef88944b012e8",
+        "name" : "DELETE. DELETE USER.",
+        "time" : {
+          "start" : 1528281936032,
+          "stop" : 1528281937135,
+          "duration" : 1103
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "527b4b2744ba2706",
+        "name" : "POST. CREATE USER.",
+        "time" : {
+          "start" : 1528281909106,
+          "stop" : 1528281911862,
+          "duration" : 2756
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "dde565955348e01d",
+        "name" : "GET. LIST USERS.",
+        "time" : {
+          "start" : 1528281938262,
+          "stop" : 1528281939367,
+          "duration" : 1105
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "be4a9ebce962b898",
+        "name" : "GET. SINGLE USER (NOT FOUND).",
+        "time" : {
+          "start" : 1528281944042,
+          "stop" : 1528281945135,
+          "duration" : 1093
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "b9231ea796dbdb95",
+        "name" : "GET. DELAYED RESPONSE.",
+        "time" : {
+          "start" : 1528281916460,
+          "stop" : 1528281922667,
+          "duration" : 6207
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "a49f3f5f0f77b035",
+        "name" : "GET. DELAYED RESPONSE.",
+        "time" : {
+          "start" : 1528281922698,
+          "stop" : 1528281933785,
+          "duration" : 11087
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "d827a015b70e9e9",
+        "name" : "PUT. UPDATE USER.",
+        "time" : {
+          "start" : 1528281956258,
+          "stop" : 1528281957346,
+          "duration" : 1088
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "d390bcd1b2054f27",
+        "name" : "PATCH. UPDATE USER.",
+        "time" : {
+          "start" : 1528281948510,
+          "stop" : 1528281949602,
+          "duration" : 1092
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "443cacdee9ead40e",
+        "name" : "POST. CREATE USER.",
+        "time" : {
+          "start" : 1528281915317,
+          "stop" : 1528281916419,
+          "duration" : 1102
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "c67b05b88fed957f",
+        "name" : "GET. DELAYED RESPONSE.",
+        "time" : {
+          "start" : 1528281934927,
+          "stop" : 1528281936007,
+          "duration" : 1080
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "3fb1c5aef6e81f13",
+        "name" : "PUT. UPDATE USER.",
+        "time" : {
+          "start" : 1528281954085,
+          "stop" : 1528281955141,
+          "duration" : 1056
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "7830ecc3470dc4af",
+        "name" : "DELETE. DELETE USER.",
+        "time" : {
+          "start" : 1528281937165,
+          "stop" : 1528281938238,
+          "duration" : 1073
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "da6e3b2119b99277",
+        "name" : "POST. CREATE USER.",
+        "time" : {
+          "start" : 1528281911903,
+          "stop" : 1528281912988,
+          "duration" : 1085
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "17af0b20e4e9e571",
+        "name" : "PATCH. UPDATE USER.",
+        "time" : {
+          "start" : 1528281950747,
+          "stop" : 1528281951813,
+          "duration" : 1066
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "7a5703af3a7d59b9",
+        "name" : "GET. LIST USERS.",
+        "time" : {
+          "start" : 1528281939391,
+          "stop" : 1528281940467,
+          "duration" : 1076
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "b89dd41304546209",
+        "name" : "GET. DELAYED RESPONSE.",
+        "time" : {
+          "start" : 1528281933815,
+          "stop" : 1528281934893,
+          "duration" : 1078
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "46f9534fe6e83534",
+      "name" : "12360@AINUR-BINADOX.TestNG-test=Login Tests-1(16)",
+      "time" : {
+        "minDuration" : 1052,
+        "maxDuration" : 1151,
+        "sumDuration" : 6531,
+        "start" : 1528281964308,
+        "stop" : 1528281971006,
+        "duration" : 6698
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "6969167ddb33ed10",
+        "name" : "POST. LOGIN (UNSUCCESSFUL).",
+        "time" : {
+          "start" : 1528281969925,
+          "stop" : 1528281971006,
+          "duration" : 1081
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "36de38b8200b798c",
+        "name" : "POST. LOGIN (UNSUCCESSFUL).",
+        "time" : {
+          "start" : 1528281967662,
+          "stop" : 1528281968714,
+          "duration" : 1052
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "9c1e51aeaa9ad8c2",
+        "name" : "POST. LOGIN (UNSUCCESSFUL).",
+        "time" : {
+          "start" : 1528281968742,
+          "stop" : 1528281969893,
+          "duration" : 1151
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "4723b807313a7d86",
+        "name" : "POST. LOGIN (UNSUCCESSFUL).",
+        "time" : {
+          "start" : 1528281966535,
+          "stop" : 1528281967623,
+          "duration" : 1088
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "a49dc0ab05ed6bb8",
+        "name" : "POST. LOGIN (SUCCESSFUL).",
+        "time" : {
+          "start" : 1528281965449,
+          "stop" : 1528281966508,
+          "duration" : 1059
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "9d5c43ed6df2aafd",
+        "name" : "POST. LOGIN (SUCCESSFUL).",
+        "time" : {
+          "start" : 1528281964308,
+          "stop" : 1528281965408,
+          "duration" : 1100
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "abd01131ae0db322",
+      "name" : "12360@AINUR-BINADOX.TestNG-test=Register Tests-1(15)",
+      "time" : {
+        "minDuration" : 1060,
+        "maxDuration" : 1278,
+        "sumDuration" : 6650,
+        "start" : 1528281957435,
+        "stop" : 1528281964252,
+        "duration" : 6817
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "5e1937c473991f30",
+        "name" : "POST. REGISTER (UNSUCCESSFUL).",
+        "time" : {
+          "start" : 1528281959692,
+          "stop" : 1528281960758,
+          "duration" : 1066
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "84629852d02ddd60",
+        "name" : "POST. REGISTER (UNSUCCESSFUL).",
+        "time" : {
+          "start" : 1528281961871,
+          "stop" : 1528281962944,
+          "duration" : 1073
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "9aa7ad1bb89fddad",
+        "name" : "POST. REGISTER (UNSUCCESSFUL).",
+        "time" : {
+          "start" : 1528281960788,
+          "stop" : 1528281961848,
+          "duration" : 1060
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "afbe76558ec64766",
+        "name" : "POST. REGISTER (SUCCESSFUL).",
+        "time" : {
+          "start" : 1528281958586,
+          "stop" : 1528281959662,
+          "duration" : 1076
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "b81cf7b090b4517e",
+        "name" : "POST. REGISTER (SUCCESSFUL).",
+        "time" : {
+          "start" : 1528281957435,
+          "stop" : 1528281958532,
+          "duration" : 1097
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "93ac4e0554ef37da",
+        "name" : "POST. REGISTER (UNSUCCESSFUL).",
+        "time" : {
+          "start" : 1528281962974,
+          "stop" : 1528281964252,
+          "duration" : 1278
         },
         "status" : "passed",
         "flaky" : false,

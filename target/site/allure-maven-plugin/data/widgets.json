@@ -5,17 +5,17 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 38,
+      "passed" : 47,
       "unknown" : 0,
-      "total" : 38
+      "total" : 47
     },
     "time" : {
-      "minDuration" : 355,
-      "maxDuration" : 10548,
-      "sumDuration" : 35085,
-      "start" : 1528245632733,
-      "stop" : 1528245669191,
-      "duration" : 36458
+      "minDuration" : 1052,
+      "maxDuration" : 11087,
+      "sumDuration" : 68338,
+      "start" : 1528281909106,
+      "stop" : 1528281979076,
+      "duration" : 69970
     }
   },
   "environment" : [ ],
@@ -23,9 +23,9 @@
     "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 38,
+    "passed" : 47,
     "unknown" : 0,
-    "total" : 38
+    "total" : 47
   } ],
   "behaviors" : {
     "total" : 0,

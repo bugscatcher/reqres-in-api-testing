@@ -1,0 +1,19 @@
+HTTP/1.1 201 Created
+Date: Wed, 06 Jun 2018 10:45:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+Set-Cookie: __cfduid=d3c579d908d1bd91aacf07ae8964b13ac1528281915; expires=Thu, 06-Jun-19 10:45:15 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"52-WU7WQUKRNnmi33RQq8eBD6l5Tqk"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 426a49d498659f6c-IAD
+
+{
+    "name": null,
+    "job": "UX Designer",
+    "id": "32",
+    "createdAt": "2018-06-06T10:46:08.942Z"
+}

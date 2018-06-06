@@ -12,6 +12,9 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.time.Clock;
 import java.time.ZonedDateTime;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.TimeUnit;
 
@@ -19,11 +22,12 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class UserTests extends Abstract {
-    @Test(description = "GET. LIST USERS.")
+    @Test(description = "GET. LIST USERS.", dataProviderClass = UserData.class, dataProvider = "listUsers_200")
     @Description("Testing the list of users.")
-    public void testListUsers_200() throws IOException {
-        UsersListDTO usersActual = getResource("/users?page=2", UsersListDTO.class);
-        UsersListDTO usersExpected = getExpectedResult("data/listUsers_200.json", UsersListDTO.class);
+    public void testListUsers_200(String page) throws IOException {
+        UsersListDTO usersActual = getResource("/users?page=" + page, UsersListDTO.class);
+        UserDTO[] users = getExpectedResult("data/listUsers.json", UserDTO[].class);
+        UsersListDTO usersExpected = doMagic(page, users);
         usersActual.getData()
                 .forEach(actual -> {
                     Optional<UserDTO> expected = usersExpected.getData()
@@ -37,21 +41,25 @@ public class UserTests extends Abstract {
                 });
     }
 
-    @Test(description = "GET. SINGLE USER.")
+    @Test(description = "GET. SINGLE USER.", dataProviderClass = UserData.class, dataProvider = "singleUser_200")
     @Description("Testing getting a single user.")
-    public void testSingleUser_200() throws IOException {
-        UserSingleDTO userActual = getResource("/users/2", UserSingleDTO.class);
-        UserSingleDTO userExpected = getExpectedResult("data/singleUser_200.json", UserSingleDTO.class);
-        assertThat(userActual.getData().getId(), equalTo(userExpected.getData().getId()));
-        assertThat(userActual.getData().getFirst_name(), equalTo(userExpected.getData().getFirst_name()));
-        assertThat(userActual.getData().getLast_name(), equalTo(userExpected.getData().getLast_name()));
-        assertThat(userActual.getData().getAvatar(), equalTo(userExpected.getData().getAvatar()));
+    public void testSingleUser_200(String id) throws IOException {
+        UserSingleDTO userActual = getResource("/users/" + id, UserSingleDTO.class);
+        UserDTO[] users = getExpectedResult("data/listUsers.json", UserDTO[].class);
+        UserDTO expectedUser = Arrays.asList(users)
+                .stream()
+                .filter(userDTO -> userDTO.getId().equals(id))
+                .findFirst()
+                .get();
+        assertThat(userActual.getData().getFirst_name(), equalTo(expectedUser.getFirst_name()));
+        assertThat(userActual.getData().getLast_name(), equalTo(expectedUser.getLast_name()));
+        assertThat(userActual.getData().getAvatar(), equalTo(expectedUser.getAvatar()));
     }
 
-    @Test(description = "GET. SINGLE USER (NOT FOUND).")
+    @Test(description = "GET. SINGLE USER (NOT FOUND).", dataProviderClass = UserData.class, dataProvider = "singleUser_404")
     @Description("Testing getting a non-existent user.")
-    public void testSingleUser_404() throws IOException {
-        Response response = getResource("/users/23");
+    public void testSingleUser_404(String id) throws IOException {
+        Response response = getResource("/users/" + id);
         assertThat(response.statusCode(), equalTo(404));
         assertThat(response.asString(), equalTo("{}"));
     }
@@ -79,10 +87,10 @@ public class UserTests extends Abstract {
 
     @Test(description = "PUT. UPDATE USER.", dataProviderClass = UserData.class, dataProvider = "updateUser_200")
     @Description("Testing an user update.")
-    public void testUpdateUser_PUT_200(String name, String job) throws IOException {
+    public void testUpdateUser_PUT_200(String id, String name, String job) throws IOException {
         UserNewDTO userExpected = new UserNewDTO().setName(name).setJob(job);
         long beginTime = ZonedDateTime.now(Clock.systemUTC()).toEpochSecond();
-        Response response = updateResource(userExpected, Method.PUT, "/users/2");
+        Response response = updateResource(userExpected, Method.PUT, "/users/" + id);
         long endTime = beginTime + response.getTimeIn(TimeUnit.SECONDS);
         UserUpdatedDTO userActual = response.as(UserUpdatedDTO.class);
         assertThat(userActual.getName(), equalTo(userExpected.getName()));
@@ -96,10 +104,10 @@ public class UserTests extends Abstract {
 
     @Test(description = "PATCH. UPDATE USER.", dataProviderClass = UserData.class, dataProvider = "patchUser_200")
     @Description("Testing an user update.")
-    public void testUpdateUser_PATCH_200(String name, String job) throws IOException {
+    public void testUpdateUser_PATCH_200(String id, String name, String job) throws IOException {
         UserNewDTO userExpected = new UserNewDTO().setName(name).setJob(job);
         long beginTime = ZonedDateTime.now(Clock.systemUTC()).toEpochSecond();
-        Response response = updateResource(userExpected, Method.PATCH, "/users/2");
+        Response response = updateResource(userExpected, Method.PATCH, "/users/" + id);
         long endTime = beginTime + response.getTimeIn(TimeUnit.SECONDS);
         UserUpdatedDTO userActual = response.as(UserUpdatedDTO.class);
         assertThat(userActual.getName(), equalTo(userExpected.getName()));
@@ -111,10 +119,10 @@ public class UserTests extends Abstract {
         /*assertThat(updatedTime, is(lessThan(endTime)));*/
     }
 
-    @Test(description = "DELETE. DELETE USER.")
+    @Test(description = "DELETE. DELETE USER.", dataProviderClass = UserData.class, dataProvider = "deleteUser_204")
     @Description("Testing user deletion.")
-    public void testDeleteUser_204() throws IOException {
-        Response response = deleteResource("/users/2");
+    public void testDeleteUser_204(String id) throws IOException {
+        Response response = deleteResource("/users/" + id);
         assertThat(response.getStatusCode(), equalTo(204));
     }
 
@@ -134,7 +142,8 @@ public class UserTests extends Abstract {
             assertThat(response.getTime(), Matchers.lessThan(errorL));
         }
         UsersListDTO usersActual = response.as(UsersListDTO.class);
-        UsersListDTO usersExpected = getExpectedResult("data/delayedResponse_200.json", UsersListDTO.class);
+        UserDTO[] users = getExpectedResult("data/listUsers.json", UserDTO[].class);
+        UsersListDTO usersExpected = doMagic(users);
         usersActual.getData()
                 .forEach(actual -> {
                     Optional<UserDTO> expected = usersExpected.getData()
@@ -146,5 +155,31 @@ public class UserTests extends Abstract {
                     assertThat(actual.getLast_name(), equalTo(expected.get().getLast_name()));
                     assertThat(actual.getAvatar(), equalTo(expected.get().getAvatar()));
                 });
+    }
+
+    private UsersListDTO doMagic(UserDTO[] users) {
+        return doMagic("1", users);
+    }
+
+    private UsersListDTO doMagic(String page, UserDTO[] users) {
+        UsersListDTO usersListDTO = new UsersListDTO();
+        usersListDTO.setPage(page);
+        usersListDTO.setTotal(String.valueOf(users.length));
+
+        int a = users.length;
+        int b = Integer.parseInt(usersListDTO.getPer_page());
+        int totalPages = (a + b - 1) / b;
+        usersListDTO.setTotal_pages(String.valueOf(totalPages));
+
+
+        int perPage = Integer.parseInt(usersListDTO.getPer_page());
+        int beg = (Integer.parseInt(page) - 1) * perPage;
+        List<UserDTO> us = new ArrayList<>(Arrays.asList(users));
+        try {
+            usersListDTO.setData(us.subList(beg, beg + perPage));
+        } catch (IndexOutOfBoundsException e) {
+            usersListDTO.setData(new ArrayList<>());
+        }
+        return usersListDTO;
     }
 }

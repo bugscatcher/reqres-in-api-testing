@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Date: Wed, 06 Jun 2018 10:45:43 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dfb394605caa28e1e5600066e468742a81528281943; expires=Thu, 06-Jun-19 10:45:43 GMT; path=/; domain=.reqres.in; HttpOnly
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"8b-aJAZTfk5qMGGAn+UuXatTcXGZFs"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 426a4a80afca9568-IAD
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 5,
+        "first_name": "Charles",
+        "last_name": "Morris",
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg"
+    }
+}

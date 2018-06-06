@@ -1,0 +1,145 @@
+{
+  "uid" : "631cde7f568fe5b9",
+  "name" : "GET. LIST USERS.",
+  "fullName" : "com.github.bugscatcher.UserTests.testListUsers_200",
+  "historyId" : "d051f906d9821f709dcd3de2c61f7285",
+  "time" : {
+    "start" : 1528281940492,
+    "stop" : 1528281941569,
+    "duration" : 1077
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Testing the list of users.",
+  "descriptionHtml" : "<p>Testing the list of users.</p>",
+  "beforeStages" : [ {
+    "name" : "Configure temp files, base uri, base path and etc.",
+    "time" : {
+      "start" : 1528281940481,
+      "stop" : 1528281940485,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Get resource",
+      "time" : {
+        "start" : 1528281940493,
+        "stop" : 1528281941568,
+        "duration" : 1075
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3bce2686c1a56736",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\request-6381364234676132205.xml",
+        "source" : "3bce2686c1a56736.txt",
+        "type" : "text/plain",
+        "size" : 304
+      }, {
+        "uid" : "3dd906eabd94cb7b",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\response-38001162020677277.xml",
+        "source" : "3dd906eabd94cb7b.txt",
+        "type" : "text/plain",
+        "size" : 661
+      } ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "/users?page=100"
+      }, {
+        "name" : "responseClass",
+        "value" : "class com.github.bugscatcher.dto.users.UsersListDTO"
+      } ]
+    }, {
+      "name" : "Get expected result from resources",
+      "time" : {
+        "start" : 1528281941568,
+        "stop" : 1528281941569,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "data/listUsers.json"
+      }, {
+        "name" : "valueClass",
+        "value" : "class [Lcom.github.bugscatcher.dto.users.UserDTO;"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "Delete temp files",
+    "time" : {
+      "start" : 1528281941576,
+      "stop" : 1528281941576,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testListUsers_200"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "host",
+    "value" : "AINUR-BINADOX"
+  }, {
+    "name" : "thread",
+    "value" : "12360@AINUR-BINADOX.TestNG-test=User Tests-1(14)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "100"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "uid" : "df4ef88944b012e8",
+  "name" : "DELETE. DELETE USER.",
+  "fullName" : "com.github.bugscatcher.UserTests.testDeleteUser_204",
+  "historyId" : "6167a21be3ebcd92b9cf0eae5a1044b1",
+  "time" : {
+    "start" : 1528281936032,
+    "stop" : 1528281937135,
+    "duration" : 1103
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "description" : "Testing user deletion.",
+  "descriptionHtml" : "<p>Testing user deletion.</p>",
+  "beforeStages" : [ {
+    "name" : "Configure temp files, base uri, base path and etc.",
+    "time" : {
+      "start" : 1528281936021,
+      "stop" : 1528281936025,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "statusDetails" : {
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "Delete resource",
+      "time" : {
+        "start" : 1528281936032,
+        "stop" : 1528281937134,
+        "duration" : 1102
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fdde9c43d70a9e43",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\request-7952656671385625251.xml",
+        "source" : "fdde9c43d70a9e43.txt",
+        "type" : "text/plain",
+        "size" : 300
+      }, {
+        "uid" : "5db68d29ad00a055",
+        "name" : "C:\\Users\\Ainur\\AppData\\Local\\Temp\\response-2347837471694165151.xml",
+        "source" : "5db68d29ad00a055.txt",
+        "type" : "text/plain",
+        "size" : 463
+      } ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "/users/1"
+      } ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "Delete temp files",
+    "time" : {
+      "start" : 1528281937146,
+      "stop" : 1528281937146,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDeleteUser_204"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "User Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.github.bugscatcher.UserTests"
+  }, {
+    "name" : "host",
+    "value" : "AINUR-BINADOX"
+  }, {
+    "name" : "thread",
+    "value" : "12360@AINUR-BINADOX.TestNG-test=User Tests-1(14)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}
