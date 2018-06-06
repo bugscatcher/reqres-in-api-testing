@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.957" tests="38" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="24.641" tests="38" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="idea.version" value="2018.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
     <property name="java.vm.version" value="25.172-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:/Users/Ainur/IdeaProjects/somethinNew/1"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Ainur\IdeaProjects\somethinNew\1"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -26,26 +27,24 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:/apache-maven-3.5.3/bin/m2.conf"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.2\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Ainur\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Ainur\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk1.8.0_172\bin;C:\apache-maven-3.5.3\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs;C:\Users\Ainur\AppData\Local\Microsoft\WindowsApps;C:\Users\Ainur\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
-    <property name="maven.conf" value="C:/apache-maven-3.5.3/conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_172\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_172\bin;C:\apache-maven-3.5.3\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Users\Ainur\AppData\Local\Microsoft\WindowsApps;C:\Users\Ainur\AppData\Roaming\npm;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:/apache-maven-3.5.3/lib/jansi-native"/>
     <property name="user.home" value="C:\Users\Ainur"/>
     <property name="user.timezone" value="Europe/Moscow"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="Ainur"/>
-    <property name="java.class.path" value="C:/apache-maven-3.5.3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.2\lib\idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_172\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.1.2 clean test site -f pom.xml"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -54,7 +53,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_172\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_172\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\apache-maven-3.5.3"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2018.1.2\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -62,42 +61,42 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testCreateUser_201" classname="com.github.bugscatcher.UserTests" time="2.35"/>
-  <testcase name="testCreateUser_201" classname="com.github.bugscatcher.UserTests" time="0.708"/>
-  <testcase name="testCreateUser_201" classname="com.github.bugscatcher.UserTests" time="0.729"/>
-  <testcase name="testCreateUser_201" classname="com.github.bugscatcher.UserTests" time="0.729"/>
-  <testcase name="testCreateUser_201" classname="com.github.bugscatcher.UserTests" time="0.602"/>
-  <testcase name="testDelayedResponse_200" classname="com.github.bugscatcher.UserTests" time="5.845"/>
-  <testcase name="testDelayedResponse_200" classname="com.github.bugscatcher.UserTests" time="10.588"/>
-  <testcase name="testDelayedResponse_200" classname="com.github.bugscatcher.UserTests" time="0.652"/>
-  <testcase name="testDelayedResponse_200" classname="com.github.bugscatcher.UserTests" time="0.578"/>
-  <testcase name="testDeleteUser_204" classname="com.github.bugscatcher.UserTests" time="0.392"/>
-  <testcase name="testListUsers_200" classname="com.github.bugscatcher.UserTests" time="0.601"/>
-  <testcase name="testSingleUser_200" classname="com.github.bugscatcher.UserTests" time="0.573"/>
-  <testcase name="testSingleUser_404" classname="com.github.bugscatcher.UserTests" time="0.547"/>
-  <testcase name="testUpdateUser_PATCH_200" classname="com.github.bugscatcher.UserTests" time="0.563"/>
-  <testcase name="testUpdateUser_PATCH_200" classname="com.github.bugscatcher.UserTests" time="0.567"/>
-  <testcase name="testUpdateUser_PATCH_200" classname="com.github.bugscatcher.UserTests" time="0.738"/>
-  <testcase name="testUpdateUser_PATCH_200" classname="com.github.bugscatcher.UserTests" time="0.557"/>
-  <testcase name="testUpdateUser_PATCH_200" classname="com.github.bugscatcher.UserTests" time="0.586"/>
-  <testcase name="testUpdateUser_PUT_200" classname="com.github.bugscatcher.UserTests" time="0.708"/>
-  <testcase name="testUpdateUser_PUT_200" classname="com.github.bugscatcher.UserTests" time="0.369"/>
-  <testcase name="testUpdateUser_PUT_200" classname="com.github.bugscatcher.UserTests" time="0.748"/>
-  <testcase name="testUpdateUser_PUT_200" classname="com.github.bugscatcher.UserTests" time="0.565"/>
-  <testcase name="testUpdateUser_PUT_200" classname="com.github.bugscatcher.UserTests" time="0.674"/>
-  <testcase name="testRegister_201" classname="com.github.bugscatcher.RegisterTests" time="0.392"/>
-  <testcase name="testRegister_201" classname="com.github.bugscatcher.RegisterTests" time="0.379"/>
-  <testcase name="testRegister_400_1" classname="com.github.bugscatcher.RegisterTests" time="0.563"/>
-  <testcase name="testRegister_400_1" classname="com.github.bugscatcher.RegisterTests" time="0.361"/>
-  <testcase name="testRegister_400_2" classname="com.github.bugscatcher.RegisterTests" time="0.384"/>
-  <testcase name="testRegister_400_2" classname="com.github.bugscatcher.RegisterTests" time="0.551"/>
-  <testcase name="testLogin_200" classname="com.github.bugscatcher.LoginTests" time="0.736"/>
-  <testcase name="testLogin_200" classname="com.github.bugscatcher.LoginTests" time="0.555"/>
-  <testcase name="testLogin_400_1" classname="com.github.bugscatcher.LoginTests" time="0.559"/>
-  <testcase name="testLogin_400_1" classname="com.github.bugscatcher.LoginTests" time="0.361"/>
-  <testcase name="testLogin_400_2" classname="com.github.bugscatcher.LoginTests" time="0.55"/>
-  <testcase name="testLogin_400_2" classname="com.github.bugscatcher.LoginTests" time="0.374"/>
-  <testcase name="testListResource_200" classname="com.github.bugscatcher.ResourceTests" time="0.596"/>
-  <testcase name="testSingleResource_200" classname="com.github.bugscatcher.ResourceTests" time="0.564"/>
-  <testcase name="testSingleResource_404" classname="com.github.bugscatcher.ResourceTests" time="0.38"/>
+  <testcase name="testCreateUser_201" classname="com.github.bugscatcher.UserTests" time="2.863"/>
+  <testcase name="testCreateUser_201" classname="com.github.bugscatcher.UserTests" time="2.864"/>
+  <testcase name="testCreateUser_201" classname="com.github.bugscatcher.UserTests" time="2.864"/>
+  <testcase name="testCreateUser_201" classname="com.github.bugscatcher.UserTests" time="2.864"/>
+  <testcase name="testCreateUser_201" classname="com.github.bugscatcher.UserTests" time="2.864"/>
+  <testcase name="testDelayedResponse_200" classname="com.github.bugscatcher.UserTests" time="0.458"/>
+  <testcase name="testDelayedResponse_200" classname="com.github.bugscatcher.UserTests" time="0.458"/>
+  <testcase name="testDelayedResponse_200" classname="com.github.bugscatcher.UserTests" time="5.577"/>
+  <testcase name="testDelayedResponse_200" classname="com.github.bugscatcher.UserTests" time="10.574"/>
+  <testcase name="testDeleteUser_204" classname="com.github.bugscatcher.UserTests" time="0.437"/>
+  <testcase name="testListUsers_200" classname="com.github.bugscatcher.UserTests" time="0.567"/>
+  <testcase name="testSingleUser_200" classname="com.github.bugscatcher.UserTests" time="0.353"/>
+  <testcase name="testSingleUser_404" classname="com.github.bugscatcher.UserTests" time="0.678"/>
+  <testcase name="testUpdateUser_PATCH_200" classname="com.github.bugscatcher.UserTests" time="0.401"/>
+  <testcase name="testUpdateUser_PATCH_200" classname="com.github.bugscatcher.UserTests" time="0.401"/>
+  <testcase name="testUpdateUser_PATCH_200" classname="com.github.bugscatcher.UserTests" time="0.591"/>
+  <testcase name="testUpdateUser_PATCH_200" classname="com.github.bugscatcher.UserTests" time="0.592"/>
+  <testcase name="testUpdateUser_PATCH_200" classname="com.github.bugscatcher.UserTests" time="0.595"/>
+  <testcase name="testUpdateUser_PUT_200" classname="com.github.bugscatcher.UserTests" time="0.37"/>
+  <testcase name="testUpdateUser_PUT_200" classname="com.github.bugscatcher.UserTests" time="0.37"/>
+  <testcase name="testUpdateUser_PUT_200" classname="com.github.bugscatcher.UserTests" time="0.37"/>
+  <testcase name="testUpdateUser_PUT_200" classname="com.github.bugscatcher.UserTests" time="0.552"/>
+  <testcase name="testUpdateUser_PUT_200" classname="com.github.bugscatcher.UserTests" time="0.581"/>
+  <testcase name="testRegister_201" classname="com.github.bugscatcher.RegisterTests" time="0.513"/>
+  <testcase name="testRegister_201" classname="com.github.bugscatcher.RegisterTests" time="0.718"/>
+  <testcase name="testRegister_400_1" classname="com.github.bugscatcher.RegisterTests" time="0.391"/>
+  <testcase name="testRegister_400_1" classname="com.github.bugscatcher.RegisterTests" time="0.391"/>
+  <testcase name="testRegister_400_2" classname="com.github.bugscatcher.RegisterTests" time="0.386"/>
+  <testcase name="testRegister_400_2" classname="com.github.bugscatcher.RegisterTests" time="0.534"/>
+  <testcase name="testLogin_200" classname="com.github.bugscatcher.LoginTests" time="0.36"/>
+  <testcase name="testLogin_200" classname="com.github.bugscatcher.LoginTests" time="0.542"/>
+  <testcase name="testLogin_400_1" classname="com.github.bugscatcher.LoginTests" time="0.558"/>
+  <testcase name="testLogin_400_1" classname="com.github.bugscatcher.LoginTests" time="0.667"/>
+  <testcase name="testLogin_400_2" classname="com.github.bugscatcher.LoginTests" time="0.393"/>
+  <testcase name="testLogin_400_2" classname="com.github.bugscatcher.LoginTests" time="0.52"/>
+  <testcase name="testListResource_200" classname="com.github.bugscatcher.ResourceTests" time="0.391"/>
+  <testcase name="testSingleResource_200" classname="com.github.bugscatcher.ResourceTests" time="0.365"/>
+  <testcase name="testSingleResource_404" classname="com.github.bugscatcher.ResourceTests" time="0.365"/>
 </testsuite>

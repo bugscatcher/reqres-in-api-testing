@@ -9,22 +9,22 @@
   },
   "time" : {
     "minDuration" : 352,
-    "maxDuration" : 10576,
-    "sumDuration" : 37862,
-    "start" : 1528243542284,
-    "stop" : 1528243581573,
-    "duration" : 39289
+    "maxDuration" : 10572,
+    "sumDuration" : 45000,
+    "start" : 1528244737313,
+    "stop" : 1528244759198,
+    "duration" : 21885
   },
   "children" : [ {
-    "uid" : "11ea6c5f3c5a9c8d",
-    "name" : "SuiteName",
+    "uid" : "1060dd56a87b996",
+    "name" : "Test Suite",
     "time" : {
       "minDuration" : 352,
-      "maxDuration" : 10576,
-      "sumDuration" : 37862,
-      "start" : 1528243542284,
-      "stop" : 1528243581573,
-      "duration" : 39289
+      "maxDuration" : 10572,
+      "sumDuration" : 45000,
+      "start" : 1528244737313,
+      "stop" : 1528244759198,
+      "duration" : 21885
     },
     "statistic" : {
       "failed" : 0,
@@ -36,15 +36,15 @@
     },
     "type" : "TestGroupNode",
     "children" : [ {
-      "uid" : "af7751793612bef5",
+      "uid" : "a97503f62d665d86",
       "name" : "User Tests",
       "time" : {
-        "minDuration" : 363,
-        "maxDuration" : 10576,
-        "sumDuration" : 30713,
-        "start" : 1528243542284,
-        "stop" : 1528243573762,
-        "duration" : 31478
+        "minDuration" : 352,
+        "maxDuration" : 10572,
+        "sumDuration" : 37919,
+        "start" : 1528244737313,
+        "stop" : 1528244754198,
+        "duration" : 16885
       },
       "statistic" : {
         "failed" : 0,
@@ -56,15 +56,15 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "9ec31f165b473072",
+        "uid" : "77cd1806bf28fba",
         "name" : "com.github.bugscatcher.UserTests",
         "time" : {
-          "minDuration" : 363,
-          "maxDuration" : 10576,
-          "sumDuration" : 30713,
-          "start" : 1528243542284,
-          "stop" : 1528243573762,
-          "duration" : 31478
+          "minDuration" : 352,
+          "maxDuration" : 10572,
+          "sumDuration" : 37919,
+          "start" : 1528244737313,
+          "stop" : 1528244754198,
+          "duration" : 16885
         },
         "statistic" : {
           "failed" : 0,
@@ -76,254 +76,254 @@
         },
         "type" : "TestGroupNode",
         "children" : [ {
-          "uid" : "ea4dc5aa4768d5fb",
-          "name" : "GET. DELAYED RESPONSE {delay}",
-          "time" : {
-            "start" : 1528243547535,
-            "stop" : 1528243553376,
-            "duration" : 5841
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "29e3cd28860d12f6",
-          "name" : "POST. CREATE USER",
-          "time" : {
-            "start" : 1528243546138,
-            "stop" : 1528243546857,
-            "duration" : 719
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "a7b1e9b791cc8eaf",
+          "uid" : "95a05cf2452d51b6",
           "name" : "PUT. UPDATE USER.",
           "time" : {
-            "start" : 1528243570632,
-            "stop" : 1528243571333,
-            "duration" : 701
+            "start" : 1528244753616,
+            "stop" : 1528244754168,
+            "duration" : 552
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "ebc5232b256abe1d",
-          "name" : "GET. DELAYED RESPONSE {delay}",
+          "uid" : "72c121a78db4592d",
+          "name" : "POST. CREATE USER.",
           "time" : {
-            "start" : 1528243553400,
-            "stop" : 1528243563976,
-            "duration" : 10576
+            "start" : 1528244737313,
+            "stop" : 1528244740110,
+            "duration" : 2797
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "e60133bc9e4b550d",
+          "uid" : "6024438a98b72987",
+          "name" : "GET. DELAYED RESPONSE.",
+          "time" : {
+            "start" : 1528244740177,
+            "stop" : 1528244740639,
+            "duration" : 462
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "a416aad704cc445f",
+          "name" : "POST. CREATE USER.",
+          "time" : {
+            "start" : 1528244737313,
+            "stop" : 1528244740109,
+            "duration" : 2796
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "e9d6c78512ba1b08",
           "name" : "PATCH. UPDATE USER.",
           "time" : {
-            "start" : 1528243568677,
-            "stop" : 1528243569406,
-            "duration" : 729
+            "start" : 1528244752963,
+            "stop" : 1528244753554,
+            "duration" : 591
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "58da5b4c1b366434",
-          "name" : "PATCH. UPDATE USER.",
-          "time" : {
-            "start" : 1528243568075,
-            "stop" : 1528243568624,
-            "duration" : 549
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "23cad2a5a54709f6",
-          "name" : "GET. LIST USERS",
-          "time" : {
-            "start" : 1528243565694,
-            "stop" : 1528243566281,
-            "duration" : 587
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "56d8f21debd83b4e",
+          "uid" : "9325100df0773617",
           "name" : "PUT. UPDATE USER.",
           "time" : {
-            "start" : 1528243572515,
-            "stop" : 1528243573069,
-            "duration" : 554
+            "start" : 1528244753614,
+            "stop" : 1528244753987,
+            "duration" : 373
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "c1ea1f26799fcc56",
-          "name" : "POST. CREATE USER",
+          "uid" : "5ecb7a9377e637c8",
+          "name" : "GET. SINGLE USER (NOT FOUND).",
           "time" : {
-            "start" : 1528243542284,
-            "stop" : 1528243544622,
-            "duration" : 2338
+            "start" : 1528244752228,
+            "stop" : 1528244752905,
+            "duration" : 677
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "a18100b5b8c03bfa",
-          "name" : "GET. DELAYED RESPONSE {delay}",
+          "uid" : "fb44ebef543350a6",
+          "name" : "GET. DELAYED RESPONSE.",
           "time" : {
-            "start" : 1528243564009,
-            "stop" : 1528243564653,
-            "duration" : 644
+            "start" : 1528244740177,
+            "stop" : 1528244745758,
+            "duration" : 5581
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "38be9404d83002f6",
-          "name" : "POST. CREATE USER",
-          "time" : {
-            "start" : 1528243545383,
-            "stop" : 1528243546094,
-            "duration" : 711
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "ff05a879adfac0a5",
-          "name" : "GET. DELAYED RESPONSE {delay}",
-          "time" : {
-            "start" : 1528243564680,
-            "stop" : 1528243565244,
-            "duration" : 564
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "f28cea94b899b15a",
-          "name" : "GET. SINGLE USER",
-          "time" : {
-            "start" : 1528243566316,
-            "stop" : 1528243566880,
-            "duration" : 564
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "666f06d8f9e75fba",
-          "name" : "POST. CREATE USER",
-          "time" : {
-            "start" : 1528243544657,
-            "stop" : 1528243545358,
-            "duration" : 701
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "215808a8d1997f96",
-          "name" : "GET. SINGLE USER (NOT FOUND)",
-          "time" : {
-            "start" : 1528243566910,
-            "stop" : 1528243567448,
-            "duration" : 538
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "7b499d4566b9ce4",
-          "name" : "PUT. UPDATE USER.",
-          "time" : {
-            "start" : 1528243571357,
-            "stop" : 1528243571720,
-            "duration" : 363
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "477da88be72e9844",
+          "uid" : "ec8c5e12b9c3ccd4",
           "name" : "DELETE. DELETE USER.",
           "time" : {
-            "start" : 1528243565277,
-            "stop" : 1528243565654,
-            "duration" : 377
+            "start" : 1528244750779,
+            "stop" : 1528244751215,
+            "duration" : 436
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "97ef5366e66ba56c",
-          "name" : "PATCH. UPDATE USER.",
-          "time" : {
-            "start" : 1528243567480,
-            "stop" : 1528243568033,
-            "duration" : 553
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "d5df99f222cb7e02",
+          "uid" : "f1683ac2ec3c769",
           "name" : "PUT. UPDATE USER.",
           "time" : {
-            "start" : 1528243573100,
-            "stop" : 1528243573762,
-            "duration" : 662
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "13c0f9beb6dcd4d4",
-          "name" : "PUT. UPDATE USER.",
-          "time" : {
-            "start" : 1528243571743,
-            "stop" : 1528243572478,
-            "duration" : 735
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "c687899ffb76c708",
-          "name" : "PATCH. UPDATE USER.",
-          "time" : {
-            "start" : 1528243570022,
-            "stop" : 1528243570596,
-            "duration" : 574
-          },
-          "status" : "passed",
-          "flaky" : false,
-          "type" : "TestCaseNode"
-        }, {
-          "uid" : "af24ae975d7f3c34",
-          "name" : "POST. CREATE USER",
-          "time" : {
-            "start" : 1528243546891,
-            "stop" : 1528243547474,
+            "start" : 1528244753615,
+            "stop" : 1528244754198,
             "duration" : 583
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "332884a126ffcc5f",
+          "uid" : "9f9721d236b404f2",
           "name" : "PATCH. UPDATE USER.",
           "time" : {
-            "start" : 1528243569440,
-            "stop" : 1528243569990,
-            "duration" : 550
+            "start" : 1528244752962,
+            "stop" : 1528244753556,
+            "duration" : 594
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "53b0158a0a336611",
+          "name" : "GET. DELAYED RESPONSE.",
+          "time" : {
+            "start" : 1528244740181,
+            "stop" : 1528244750753,
+            "duration" : 10572
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "bcc140914b2efa4a",
+          "name" : "POST. CREATE USER.",
+          "time" : {
+            "start" : 1528244737313,
+            "stop" : 1528244740109,
+            "duration" : 2796
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "ecc363bd91dd7d08",
+          "name" : "PATCH. UPDATE USER.",
+          "time" : {
+            "start" : 1528244752962,
+            "stop" : 1528244753363,
+            "duration" : 401
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "71685267e25e00a8",
+          "name" : "PUT. UPDATE USER.",
+          "time" : {
+            "start" : 1528244753615,
+            "stop" : 1528244753987,
+            "duration" : 372
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "9528d5705f13a204",
+          "name" : "PATCH. UPDATE USER.",
+          "time" : {
+            "start" : 1528244752959,
+            "stop" : 1528244753553,
+            "duration" : 594
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "a4cbc384f4dc8161",
+          "name" : "POST. CREATE USER.",
+          "time" : {
+            "start" : 1528244737313,
+            "stop" : 1528244740109,
+            "duration" : 2796
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "c39b6b14f1217a26",
+          "name" : "GET. SINGLE USER.",
+          "time" : {
+            "start" : 1528244751850,
+            "stop" : 1528244752202,
+            "duration" : 352
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "fc769d6f9dc89f69",
+          "name" : "GET. DELAYED RESPONSE.",
+          "time" : {
+            "start" : 1528244740180,
+            "stop" : 1528244740639,
+            "duration" : 459
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "fc3c267e9a1d104c",
+          "name" : "PUT. UPDATE USER.",
+          "time" : {
+            "start" : 1528244753618,
+            "stop" : 1528244753987,
+            "duration" : 369
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "cbd954af8ca64cc5",
+          "name" : "GET. LIST USERS.",
+          "time" : {
+            "start" : 1528244751257,
+            "stop" : 1528244751823,
+            "duration" : 566
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "c1a647c4b7a3c26b",
+          "name" : "POST. CREATE USER.",
+          "time" : {
+            "start" : 1528244737313,
+            "stop" : 1528244740109,
+            "duration" : 2796
+          },
+          "status" : "passed",
+          "flaky" : false,
+          "type" : "TestCaseNode"
+        }, {
+          "uid" : "d6bcbcf264c2988d",
+          "name" : "PATCH. UPDATE USER.",
+          "time" : {
+            "start" : 1528244752958,
+            "stop" : 1528244753362,
+            "duration" : 404
           },
           "status" : "passed",
           "flaky" : false,
@@ -331,15 +331,15 @@
         } ]
       } ]
     }, {
-      "uid" : "85390fcef18a3ff2",
+      "uid" : "1b53ff9a0fa0e9ac",
       "name" : "Login Tests",
       "time" : {
-        "minDuration" : 355,
-        "maxDuration" : 726,
-        "sumDuration" : 3064,
-        "start" : 1528243576676,
-        "stop" : 1528243579936,
-        "duration" : 3260
+        "minDuration" : 359,
+        "maxDuration" : 666,
+        "sumDuration" : 3033,
+        "start" : 1528244756071,
+        "stop" : 1528244757888,
+        "duration" : 1817
       },
       "statistic" : {
         "failed" : 0,
@@ -351,15 +351,15 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "c7c94c726c1e965a",
+        "uid" : "42722a6e6ef8da14",
         "name" : "com.github.bugscatcher.LoginTests",
         "time" : {
-          "minDuration" : 355,
-          "maxDuration" : 726,
-          "sumDuration" : 3064,
-          "start" : 1528243576676,
-          "stop" : 1528243579936,
-          "duration" : 3260
+          "minDuration" : 359,
+          "maxDuration" : 666,
+          "sumDuration" : 3033,
+          "start" : 1528244756071,
+          "stop" : 1528244757888,
+          "duration" : 1817
         },
         "statistic" : {
           "failed" : 0,
@@ -371,67 +371,67 @@
         },
         "type" : "TestGroupNode",
         "children" : [ {
-          "uid" : "732289eb1596084b",
-          "name" : "POST. LOGIN (UNSUCCESSFUL)",
+          "uid" : "3594f911537423a2",
+          "name" : "POST. LOGIN (UNSUCCESSFUL).",
           "time" : {
-            "start" : 1528243578030,
-            "stop" : 1528243578580,
-            "duration" : 550
+            "start" : 1528244757369,
+            "stop" : 1528244757888,
+            "duration" : 519
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "963a7fd7916b3757",
-          "name" : "POST. LOGIN (SUCCESSFUL)",
+          "uid" : "e1f896447d58c48d",
+          "name" : "POST. LOGIN (SUCCESSFUL).",
           "time" : {
-            "start" : 1528243577436,
-            "stop" : 1528243577970,
-            "duration" : 534
+            "start" : 1528244756071,
+            "stop" : 1528244756430,
+            "duration" : 359
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "6a79e783ddc8b992",
-          "name" : "POST. LOGIN (SUCCESSFUL)",
+          "uid" : "19a9e76e5769825c",
+          "name" : "POST. LOGIN (UNSUCCESSFUL).",
           "time" : {
-            "start" : 1528243576676,
-            "stop" : 1528243577402,
-            "duration" : 726
+            "start" : 1528244756654,
+            "stop" : 1528244757320,
+            "duration" : 666
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "4fd19ecff61e5b7d",
-          "name" : "POST. LOGIN (UNSUCCESSFUL)",
+          "uid" : "c4d0be114af566e1",
+          "name" : "POST. LOGIN (SUCCESSFUL).",
           "time" : {
-            "start" : 1528243578609,
-            "stop" : 1528243578964,
-            "duration" : 355
+            "start" : 1528244756071,
+            "stop" : 1528244756611,
+            "duration" : 540
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "28b4d2d01d35b41c",
-          "name" : "POST. LOGIN (UNSUCCESSFUL)",
+          "uid" : "5b2b39e59e6827f5",
+          "name" : "POST. LOGIN (UNSUCCESSFUL).",
           "time" : {
-            "start" : 1528243578987,
-            "stop" : 1528243579522,
-            "duration" : 535
+            "start" : 1528244756654,
+            "stop" : 1528244757211,
+            "duration" : 557
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "d10871ea9db831aa",
-          "name" : "POST. LOGIN (UNSUCCESSFUL)",
+          "uid" : "d7c9c17e486e50eb",
+          "name" : "POST. LOGIN (UNSUCCESSFUL).",
           "time" : {
-            "start" : 1528243579572,
-            "stop" : 1528243579936,
-            "duration" : 364
+            "start" : 1528244757369,
+            "stop" : 1528244757761,
+            "duration" : 392
           },
           "status" : "passed",
           "flaky" : false,
@@ -439,15 +439,15 @@
         } ]
       } ]
     }, {
-      "uid" : "848668f638fa69c6",
+      "uid" : "d3590ebe57c27b03",
       "name" : "Resource Tests",
       "time" : {
-        "minDuration" : 371,
-        "maxDuration" : 586,
-        "sumDuration" : 1515,
-        "start" : 1528243579998,
-        "stop" : 1528243581573,
-        "duration" : 1575
+        "minDuration" : 364,
+        "maxDuration" : 389,
+        "sumDuration" : 1119,
+        "start" : 1528244757970,
+        "stop" : 1528244759198,
+        "duration" : 1228
       },
       "statistic" : {
         "failed" : 0,
@@ -459,15 +459,15 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "77c068bd1a9dd597",
+        "uid" : "416a9c43d2846db1",
         "name" : "com.github.bugscatcher.ResourceTests",
         "time" : {
-          "minDuration" : 371,
-          "maxDuration" : 586,
-          "sumDuration" : 1515,
-          "start" : 1528243579998,
-          "stop" : 1528243581573,
-          "duration" : 1575
+          "minDuration" : 364,
+          "maxDuration" : 389,
+          "sumDuration" : 1119,
+          "start" : 1528244757970,
+          "stop" : 1528244759198,
+          "duration" : 1228
         },
         "statistic" : {
           "failed" : 0,
@@ -479,34 +479,34 @@
         },
         "type" : "TestGroupNode",
         "children" : [ {
-          "uid" : "451f25c31e911abc",
-          "name" : "GET. SINGLE RESOURCE (NOT FOUND)",
+          "uid" : "d9fb5a1df99ee8a8",
+          "name" : "GET. SINGLE RESOURCE (NOT FOUND).",
           "time" : {
-            "start" : 1528243581202,
-            "stop" : 1528243581573,
-            "duration" : 371
+            "start" : 1528244758832,
+            "stop" : 1528244759198,
+            "duration" : 366
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "9299a6566f3a539",
-          "name" : "GET. SINGLE RESOURCE",
+          "uid" : "53caf851d082c575",
+          "name" : "GET. LIST RESOURCES.",
           "time" : {
-            "start" : 1528243580621,
-            "stop" : 1528243581179,
-            "duration" : 558
+            "start" : 1528244757970,
+            "stop" : 1528244758359,
+            "duration" : 389
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "2354da204c9df23c",
-          "name" : "GET. LIST RESOURCES",
+          "uid" : "bc9966e59392cb18",
+          "name" : "GET. SINGLE RESOURCE.",
           "time" : {
-            "start" : 1528243579998,
-            "stop" : 1528243580584,
-            "duration" : 586
+            "start" : 1528244758394,
+            "stop" : 1528244758758,
+            "duration" : 364
           },
           "status" : "passed",
           "flaky" : false,
@@ -514,15 +514,15 @@
         } ]
       } ]
     }, {
-      "uid" : "b52642e80d3666dd",
+      "uid" : "ed9b03a19e384b08",
       "name" : "Register Tests",
       "time" : {
-        "minDuration" : 352,
-        "maxDuration" : 554,
-        "sumDuration" : 2570,
-        "start" : 1528243573843,
-        "stop" : 1528243576602,
-        "duration" : 2759
+        "minDuration" : 386,
+        "maxDuration" : 718,
+        "sumDuration" : 2929,
+        "start" : 1528244754288,
+        "stop" : 1528244756004,
+        "duration" : 1716
       },
       "statistic" : {
         "failed" : 0,
@@ -534,15 +534,15 @@
       },
       "type" : "TestGroupNode",
       "children" : [ {
-        "uid" : "634c6798638c7001",
+        "uid" : "575b2cda6c33f580",
         "name" : "com.github.bugscatcher.RegisterTests",
         "time" : {
-          "minDuration" : 352,
-          "maxDuration" : 554,
-          "sumDuration" : 2570,
-          "start" : 1528243573843,
-          "stop" : 1528243576602,
-          "duration" : 2759
+          "minDuration" : 386,
+          "maxDuration" : 718,
+          "sumDuration" : 2929,
+          "start" : 1528244754288,
+          "stop" : 1528244756004,
+          "duration" : 1716
         },
         "statistic" : {
           "failed" : 0,
@@ -554,67 +554,67 @@
         },
         "type" : "TestGroupNode",
         "children" : [ {
-          "uid" : "6f9ecf5cd3a7fc1e",
-          "name" : "POST. REGISTER (UNSUCCESSFUL)",
+          "uid" : "395f3312eec9eb65",
+          "name" : "POST. REGISTER (SUCCESSFUL).",
           "time" : {
-            "start" : 1528243575640,
-            "stop" : 1528243576010,
-            "duration" : 370
+            "start" : 1528244754289,
+            "stop" : 1528244754801,
+            "duration" : 512
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "7ba4c60c45778641",
-          "name" : "POST. REGISTER (SUCCESSFUL)",
+          "uid" : "c310e1db7d0e7d33",
+          "name" : "POST. REGISTER (UNSUCCESSFUL).",
           "time" : {
-            "start" : 1528243573843,
-            "stop" : 1528243574225,
-            "duration" : 382
+            "start" : 1528244755039,
+            "stop" : 1528244755429,
+            "duration" : 390
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "45c009504736d45",
-          "name" : "POST. REGISTER (UNSUCCESSFUL)",
+          "uid" : "a1708f0f31721209",
+          "name" : "POST. REGISTER (UNSUCCESSFUL).",
           "time" : {
-            "start" : 1528243575256,
-            "stop" : 1528243575608,
-            "duration" : 352
+            "start" : 1528244755471,
+            "stop" : 1528244756004,
+            "duration" : 533
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "f70bbdae8bd3d95e",
-          "name" : "POST. REGISTER (UNSUCCESSFUL)",
+          "uid" : "8881cad3af0ab886",
+          "name" : "POST. REGISTER (UNSUCCESSFUL).",
           "time" : {
-            "start" : 1528243574668,
-            "stop" : 1528243575222,
-            "duration" : 554
+            "start" : 1528244755039,
+            "stop" : 1528244755429,
+            "duration" : 390
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "699a751af3cace01",
-          "name" : "POST. REGISTER (UNSUCCESSFUL)",
+          "uid" : "8bc32f852ceb9fe9",
+          "name" : "POST. REGISTER (UNSUCCESSFUL).",
           "time" : {
-            "start" : 1528243576060,
-            "stop" : 1528243576602,
-            "duration" : 542
+            "start" : 1528244755470,
+            "stop" : 1528244755856,
+            "duration" : 386
           },
           "status" : "passed",
           "flaky" : false,
           "type" : "TestCaseNode"
         }, {
-          "uid" : "7af0d06d0ca4b5d2",
-          "name" : "POST. REGISTER (SUCCESSFUL)",
+          "uid" : "4011a0c23078a4d2",
+          "name" : "POST. REGISTER (SUCCESSFUL).",
           "time" : {
-            "start" : 1528243574263,
-            "stop" : 1528243574633,
-            "duration" : 370
+            "start" : 1528244754288,
+            "stop" : 1528244755006,
+            "duration" : 718
           },
           "status" : "passed",
           "flaky" : false,

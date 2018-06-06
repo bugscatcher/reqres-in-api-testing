@@ -14,7 +14,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class RegisterTests extends Abstract {
-    @Test(description = "POST. REGISTER (SUCCESSFUL)", dataProviderClass = UserData.class, dataProvider = "registerUser")
+    @Test(description = "POST. REGISTER (SUCCESSFUL).", dataProviderClass = UserData.class, dataProvider = "registerUser")
     @Description("Testing the registration of a new user.")
     public void testRegister_201(String email, String password) throws IOException {
         UserRegisterDTO newUser = new UserRegisterDTO().setEmail(email).setPassword(password);
@@ -24,7 +24,7 @@ public class RegisterTests extends Abstract {
         assertThat(token.getToken(), is(notNullValue()));
     }
 
-    @Test(description = "POST. REGISTER (UNSUCCESSFUL)", dataProviderClass = UserData.class, dataProvider = "registerUser")
+    @Test(description = "POST. REGISTER (UNSUCCESSFUL).", dataProviderClass = UserData.class, dataProvider = "registerUser")
     @Description("Testing the registration of a new user.")
     public void testRegister_400_1(String email, String password) throws IOException {
         UserRegisterDTO newUser = new UserRegisterDTO().setEmail(email);
@@ -33,7 +33,7 @@ public class RegisterTests extends Abstract {
         assertThat(response.asString(), Matchers.containsString("Missing password"));
     }
 
-    @Test(description = "POST. REGISTER (UNSUCCESSFUL)", dataProviderClass = UserData.class, dataProvider = "registerUser")
+    @Test(description = "POST. REGISTER (UNSUCCESSFUL).", dataProviderClass = UserData.class, dataProvider = "registerUser")
     @Description("Testing the registration of a new user.")
     public void testRegister_400_2(String email, String password) throws IOException {
         UserRegisterDTO newUser = new UserRegisterDTO().setPassword(password);

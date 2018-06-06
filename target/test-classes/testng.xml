@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="SuiteName" verbose="1" parallel="classes" thread-count="5">
+<suite name="Test Suite" verbose="1" parallel="classes" thread-count="5">
     <test name="User Tests">
         <classes>
             <class name="com.github.bugscatcher.UserTests"></class>

@@ -14,7 +14,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class LoginTests extends Abstract {
-    @Test(description = "POST. LOGIN (SUCCESSFUL)", dataProviderClass = UserData.class, dataProvider = "registerUser")
+    @Test(description = "POST. LOGIN (SUCCESSFUL).", dataProviderClass = UserData.class, dataProvider = "registerUser")
     @Description("Testing the logon.")
     public void testLogin_200(String email, String password) throws IOException {
         UserRegisterDTO newUser = new UserRegisterDTO().setEmail(email).setPassword(password);
@@ -24,7 +24,7 @@ public class LoginTests extends Abstract {
         assertThat(token.getToken(), is(notNullValue()));
     }
 
-    @Test(description = "POST. LOGIN (UNSUCCESSFUL)", dataProviderClass = UserData.class, dataProvider = "registerUser")
+    @Test(description = "POST. LOGIN (UNSUCCESSFUL).", dataProviderClass = UserData.class, dataProvider = "registerUser")
     @Description("Testing the logon.")
     public void testLogin_400_1(String email, String password) throws IOException {
         UserRegisterDTO newUser = new UserRegisterDTO().setEmail(email);
@@ -33,7 +33,7 @@ public class LoginTests extends Abstract {
         assertThat(response.asString(), Matchers.containsString("Missing password"));
     }
 
-    @Test(description = "POST. LOGIN (UNSUCCESSFUL)", dataProviderClass = UserData.class, dataProvider = "registerUser")
+    @Test(description = "POST. LOGIN (UNSUCCESSFUL).", dataProviderClass = UserData.class, dataProvider = "registerUser")
     @Description("Testing the logon.")
     public void testLogin_400_2(String email, String password) throws IOException {
         UserRegisterDTO newUser = new UserRegisterDTO().setPassword(password);

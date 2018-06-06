@@ -19,7 +19,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class UserTests extends Abstract {
-    @Test(description = "GET. LIST USERS")
+    @Test(description = "GET. LIST USERS.")
     @Description("Testing the list of users.")
     public void testListUsers_200() throws IOException {
         UsersListDTO usersActual = getResource("/users?page=2", UsersListDTO.class);
@@ -37,7 +37,7 @@ public class UserTests extends Abstract {
                 });
     }
 
-    @Test(description = "GET. SINGLE USER")
+    @Test(description = "GET. SINGLE USER.")
     @Description("Testing getting a single user.")
     public void testSingleUser_200() throws IOException {
         UserSingleDTO userActual = getResource("/users/2", UserSingleDTO.class);
@@ -48,7 +48,7 @@ public class UserTests extends Abstract {
         assertThat(userActual.getData().getAvatar(), equalTo(userExpected.getData().getAvatar()));
     }
 
-    @Test(description = "GET. SINGLE USER (NOT FOUND)")
+    @Test(description = "GET. SINGLE USER (NOT FOUND).")
     @Description("Testing getting a non-existent user.")
     public void testSingleUser_404() throws IOException {
         Response response = getResource("/users/23");
@@ -57,7 +57,7 @@ public class UserTests extends Abstract {
     }
 
 
-    @Test(description = "POST. CREATE USER", dataProviderClass = UserData.class, dataProvider = "createUser_201")
+    @Test(description = "POST. CREATE USER.", dataProviderClass = UserData.class, dataProvider = "createUser_201")
     @Description("Testing the creation of the user.")
     public void testCreateUser_201(String name, String job) throws IOException {
         UserNewDTO newUser = new UserNewDTO().setName(name).setJob(job);
@@ -118,7 +118,7 @@ public class UserTests extends Abstract {
         assertThat(response.getStatusCode(), equalTo(204));
     }
 
-    @Test(description = "GET. DELAYED RESPONSE {delay}", dataProviderClass = UserData.class, dataProvider = "delay")
+    @Test(description = "GET. DELAYED RESPONSE.", dataProviderClass = UserData.class, dataProvider = "delay")
     @Description("Testing the delayed response.")
     public void testDelayedResponse_200(String delay) throws IOException {
         final long errorL = 3000;

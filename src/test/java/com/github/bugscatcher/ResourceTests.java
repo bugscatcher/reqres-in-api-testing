@@ -14,7 +14,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
 public class ResourceTests extends Abstract {
-    @Test(description = "GET. LIST RESOURCES")
+    @Test(description = "GET. LIST RESOURCES.")
     @Description("Testing the list of resources.")
     public void testListResource_200() throws IOException {
         ResourcesListDTO resourcesActual = getResource("/unknown", ResourcesListDTO.class);
@@ -33,7 +33,7 @@ public class ResourceTests extends Abstract {
                 });
     }
 
-    @Test(description = "GET. SINGLE RESOURCE")
+    @Test(description = "GET. SINGLE RESOURCE.")
     @Description("Testing getting a single resource.")
     public void testSingleResource_200() throws IOException {
         ResourceSingleDTO resourceActual = getResource("/unknown/2", ResourceSingleDTO.class);
@@ -45,7 +45,7 @@ public class ResourceTests extends Abstract {
         assertThat(resourceActual.getData().getPantone_value(), equalTo(resourceExpected.getData().getPantone_value()));
     }
 
-    @Test(description = "GET. SINGLE RESOURCE (NOT FOUND)")
+    @Test(description = "GET. SINGLE RESOURCE (NOT FOUND).")
     @Description("Testing getting a non-existent resource.")
     public void testSingleResource_404() throws IOException {
         Response response = getResource("/unknown/23");
